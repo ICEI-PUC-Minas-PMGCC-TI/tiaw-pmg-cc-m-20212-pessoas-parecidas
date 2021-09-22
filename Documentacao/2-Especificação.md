@@ -38,6 +38,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|                    |                                    |                                        |
+|                    |                                    |                                        |
+|                    |                                    |                                        |
+|                    |                                    |                                        |
+|                    |                                    |                                        |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -60,7 +65,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-003|                                         |        |
+|RF-004|                                         |        |
+|RF-005|                                         |        |
+|RF-006|                                         |        |
+|RF-007|                                         |        |
+|RF-008|                                         |        |
 
 ### Requisitos não Funcionais
 
@@ -95,7 +105,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
+|03|                                                       |
+|04|                                                       |
+|05|                                                       |
+|06|                                                       |
+|07|                                                       |
+|08|                                                       |
+|09|                                                       |
+|10|                                                       |
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
 > geralmente limitam a solução candidata.
