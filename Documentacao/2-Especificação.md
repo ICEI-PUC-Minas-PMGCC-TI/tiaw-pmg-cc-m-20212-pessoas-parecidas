@@ -14,6 +14,31 @@ pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
 buscando uma agência que o ajude a encontrar universidades na Europa
 que aceitem alunos estrangeiros.
 
+##Persona 1
+
+Marco Gomes tem 21 anos,é estudante universitário de administração e estágiario em uma 
+grande empresa.Gosta de jogar video games e sair com os amigos próximos dele durante o seu tempo livre.
+É uma pessoa bastante concentrada,introvertida,sentimental,e que sente uma grande necessidade de criar 
+conexões afetivas com as outras pessoas.Ele gosta de ter o seu espaço respeitado e sonha em um dia encontrar
+a mulher de sua vida.
+
+Ele se sente sozinho e com dificuldade de criar novas amizades.Constantemente escuta das outras
+pessoas que deve ser mais extrovertido,sair mais de casa e de deixar de ser tão esquisito quando
+se trata do convívio social com outras pessoas.Ele frequentemente diz que não gosta de se relacionar
+com pessoas que não entendem o seu ponto de vista.É uma pessoa com medo de mudanças,muito tímido 
+e retraído,além de não conseguir interagir com desconhecidos.
+
+Contudo,Marco também é uma pessoa muito fiel,concentrada e empática com quem ele gosta.
+Forçar relações e invadir  espaço pessoal é extremamente desagradável para ele.O seu objetivo
+principal é encontrar novas amizades com pessoas com os mesmos interesses dele de uma maneira confortável.
+
+##Persona 2
+
+
+
+
+
+
 
 > Enumere e detalhe as personas da sua solução. Para
 > tanto, baseie-se tanto nos documentos disponibilizados na disciplina
