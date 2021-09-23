@@ -10,8 +10,10 @@ Trabalho Interdisciplinar - Aplicacões Web
 ## Participantes
 
 Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+- Felipe Augusto Maciel Constantino
+- Felipe Augusto Morais Silva
+- Gabriel da Silva Martins
+- Marcus Prado Silva
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 
