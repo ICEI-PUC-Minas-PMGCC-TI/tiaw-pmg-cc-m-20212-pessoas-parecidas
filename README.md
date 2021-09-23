@@ -7,7 +7,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 * Marcus Prado Silva
 * Felipe Augusto Morais Silva
-* Nome completo do aluno 3
+* Felipe Augusto Maciel Constantino
 * Nome completo do aluno 4
 
 ## Professores responsáveis
