@@ -30,7 +30,7 @@
 
 ## Justificativa
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
+> Descreva a importância ou a motivação para trabalhar com esta aplicação ok
 > que você escolheu. Indique as razões pelas quais você escolheu seus
 > objetivos específicos ou as razões para aprofundar em certos aspectos
 > do software.
