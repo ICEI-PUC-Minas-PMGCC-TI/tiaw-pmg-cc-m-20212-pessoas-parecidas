@@ -8,13 +8,7 @@
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em
-se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
-
-##Persona 1
+### Persona 1
 
 Marco Gomes tem 21 anos,é estudante universitário de administração e estágiario em uma 
 grande empresa.Gosta de jogar video games e sair com os amigos próximos dele durante o seu tempo livre.
@@ -32,7 +26,8 @@ Contudo,Marco também é uma pessoa muito fiel,concentrada e empática com quem 
 Forçar relações e invadir  espaço pessoal é extremamente desagradável para ele.O seu objetivo
 principal é encontrar novas amizades com pessoas com os mesmos interesses dele de uma maneira confortável.
 
-##Persona 2
+
+### Persona 2
 
 
 
@@ -90,12 +85,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003|                                         |        |
-|RF-004|                                         |        |
-|RF-005|                                         |        |
-|RF-006|                                         |        |
-|RF-007|                                         |        |
-|RF-008|                                         |        |
+|RF-003| Infraestrutura                          | ALTA |
+|RF-004| Mecanismos de busca                     | ALTA |
+|RF-005| Anonimato                               | MÉDIA |
+|RF-006| Interface dinâmica                      | ALTA |
+|RF-007| Politicas de privacidade                | MÉDIA |
+|RF-008| Gerenciamento de conteúdo               | ALTA |
 
 ### Requisitos não Funcionais
 
@@ -103,6 +98,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Sistema automatizado de banimentos | MÉDIA |
+|RNF-004| Remoção de grupos inúteis automaticamente | BAIXA |
+
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -130,7 +128,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03|                                                       |
+|03| Não conseguimos controlar o caráter do usuário        |
 |04|                                                       |
 |05|                                                       |
 |06|                                                       |
