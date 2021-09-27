@@ -47,7 +47,7 @@ além de também permitir ter  cópias dos arquivos salvos na nuvem.
 > projeto, justificando a escolha delas, sempre que possível.
 > 
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [![Discord](images/slack.jpg)](https://discord.com/)
+> - [![Discord](images/discord.jpg)](https://discord.com/)
 > - [![Trello](images/trello.png)](https://trello.com/)
 > 
 > - [![Microsof Teams](images/teams.png)](https://teams.microsoft.com/)
