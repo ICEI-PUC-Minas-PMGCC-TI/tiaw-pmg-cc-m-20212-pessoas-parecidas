@@ -83,7 +83,7 @@ Entretanto,Patrícia é uma pessoa otimista,empolgada,descontraída,companheira 
 proporcionar.Ela odeia que a achem que ela é supercifial e desinteressante.O seu objetivo principal é conhecer pessoas novas que 
 não julguem ela por sua aparência e que façam ela melhorar no seus estudos de francês e na vida como um todo.
 
-# Persona 5
+### Persona 5
 
 
 
@@ -109,13 +109,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Moderadores         |Monitorar conteudo/usuarios em seus grupos | Mantendo a qualidade dos mesmos |
-|Usuário 1           |Encontrar pessoas com interesses similares | Permitindo a criação de realações entre usuários|
+|Moderadores         |Monitorar conteudo/usuários em seus grupos | Manter a qualidade dos grupos |
+|Usuário 1           |Encontrar pessoas com interesses similares | Permitindo a criação de realações entre usuários sem que eles saiam das suas zonas de conforto|
 |Usuário 2           |Encontrar um ambiente saúdavel para se expressar | Para mostrar e praticar seus interesses sem medo de repressão |
-|Usuário 3           |Encontar novos interesses           | Assim tendo novas experiencias         |
+|Usuário 3           |Encontar novos interesses           | Assim tendo novas experiencias e amizades |
 |Usúario 4           |Praticar seus hobbies com anonimato | Para não misturar sua vida com seus passatempos|
-|                    |                                    |                                        |
-|                    |                                    |                                        |
+
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -135,15 +134,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário se cadastre       | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| Infraestrutura                          | ALTA |
-|RF-004| Mecanismos de busca                     | ALTA |
-|RF-005| Anonimato                               | MÉDIA |
-|RF-006| Interface dinâmica                      | ALTA |
-|RF-007| Politicas de privacidade                | MÉDIA |
-|RF-008| Gerenciamento de conteúdo               | ALTA |
+|------|-----------------------------------------|-----|
+|RF-001| Permitir que o usuário se cadastre      |ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   |MÉDIA|
+|RF-003| Infraestrutura                          |ALTA |
+|RF-004| Mecanismos de busca                     |ALTA |
+|RF-005| Anonimato                               |MÉDIA|
+|RF-006| Interface dinâmica                      |ALTA |
+|RF-007| Políticas de privacidade                |MÉDIA|
+|RF-008| Gerenciamento de conteúdo               |ALTA |
 
 ### Requisitos não Funcionais
 
@@ -185,9 +184,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| Não conseguimos controlar o caráter do usuário        |
 |04| Não é possivel que Membros da equipe monitorem todos os grupos|
-|05| Grupos pequenos podem se tornar obsoletos             |
+|05| Grupos podem se tornar obsoletos                      |
 |06| Nivel de anonimato dos usuários                       |
-|07|                                                       |
+|07| Barreiras linguísticas                                |
 |08|                                                       |
 |09|                                                       |
 |10|                                                       |
