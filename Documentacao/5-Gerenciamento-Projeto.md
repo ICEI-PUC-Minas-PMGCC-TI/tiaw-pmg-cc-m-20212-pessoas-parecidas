@@ -52,7 +52,7 @@ além de também permitir ter  cópias dos arquivos salvos na nuvem.
 > 
 > - [![Microsof Teams](images/teams.png)](https://teams.microsoft.com/)
 > - [![Redbooth](images/redbooth.png)](https://redbooth.com/)
-> - [![Visual Studio Code]](https://visualstudio.microsoft.com/)
+> - [![Visual Studio Code](images/visualstudiocode.jpg)](https://visualstudio.microsoft.com/)
 > - [![Miro]](https://miro.com/)
 > - [![Repl.it]](https://replit.com/)
 > 
