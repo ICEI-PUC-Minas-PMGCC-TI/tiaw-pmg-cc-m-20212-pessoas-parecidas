@@ -1,11 +1,11 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+Aplicação Web - Pessoas Parecidas  
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`
+Ciência da Computação- Puc Minas - Coração Eucarístico 
 
-`SEMESTRE`
+Segundo semestre de 2021
 
 ## Participantes
 
