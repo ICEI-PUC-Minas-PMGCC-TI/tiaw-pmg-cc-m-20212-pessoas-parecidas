@@ -136,7 +136,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-001| Permitir que o usuário se cadastre       | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 |RF-003| Infraestrutura                          | ALTA |
 |RF-004| Mecanismos de busca                     | ALTA |
@@ -153,7 +153,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Sistema automatizado de banimentos | MÉDIA |
 |RNF-004| Remoção de grupos inúteis automaticamente | BAIXA |
-
+|RNF-005| Sistema de eleição de moderadores da comunidade | MEDIA |
+|RNF-006| Sistema de "report" | MÉDIA |
+|RNF-007| Customização do perfil do usuário/além do necessário | BAIXA |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -182,9 +184,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| Não conseguimos controlar o caráter do usuário        |
-|04|                                                       |
-|05|                                                       |
-|06|                                                       |
+|04| Não é possivel que Membros da equipe monitorem todos os grupos |
+|05| Grupos pequenos podem se tornar obsoletos             |
+|06| Anonimato dos usuários                                |
 |07|                                                       |
 |08|                                                       |
 |09|                                                       |
