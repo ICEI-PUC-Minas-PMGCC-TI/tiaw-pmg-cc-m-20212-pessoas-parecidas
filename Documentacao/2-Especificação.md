@@ -27,6 +27,7 @@ Forçar relações e invadir  espaço pessoal é extremamente desagradável para
 principal é encontrar novas amizades com pessoas com os mesmos interesses dele de uma maneira confortável.
 
 
+
 ### Persona 2
 
 Rodrigo Pereira tem 42 anos,é assistente social em uma ONG que ajuda jovens a amadurecerem e mudar de vida,além 
@@ -83,7 +84,6 @@ Entretanto,Patrícia é uma pessoa otimista,empolgada,descontraída,companheira 
 proporcionar.Ela odeia que a achem que ela é supercifial e desinteressante.O seu objetivo principal é conhecer pessoas novas que 
 não julguem ela por sua aparência e que façam ela melhorar no seus estudos de francês e na vida como um todo.
 
-### Persona 5
 
 
 
@@ -110,10 +110,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Moderadores         |Monitorar conteudo/usuários em seus grupos | Manter a qualidade dos grupos |
-|Usuário 1           |Encontrar pessoas com interesses similares | Permitindo a criação de realações entre usuários sem que eles saiam das suas zonas de conforto|
-|Usuário 2           |Encontrar um ambiente saúdavel para se expressar | Para mostrar e praticar seus interesses sem medo de repressão |
-|Usuário 3           |Encontar novos interesses           | Assim tendo novas experiencias e amizades |
-|Usúario 4           |Praticar seus hobbies com anonimato | Para não misturar sua vida com seus passatempos|
+|Marco Gomes         |Encontrar pessoas com interesses similares | Permitindo a criação de realações entre usuários sem que eles saiam das suas zonas de conforto|
+|Marco Gomes         |Encontrar alguem para se relacionar mais seriamente | Realizar seu sonho de encontrar alguem especial |
+|Patricia Gonçalves  |Encontrar um ambiente saúdavel para se expressar | Para mostrar e praticar seus interesses sem medo de repressão |
+|Rodrigo Pereira     |Encontar pessoas e formmar amizades           | Encontrar pessoas para ajudar |
+|Rodrigo Pereira     |Encontrar pessoas com interesse na música | Praticar seus interresses musicais |
+|Diego Martins       |Praticar seus hobbies com anonimato | Para não misturar sua vida com seus passatempos|
 
 
 > Apresente aqui as histórias de usuário que são relevantes para o
