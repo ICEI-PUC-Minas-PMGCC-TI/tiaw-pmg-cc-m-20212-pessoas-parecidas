@@ -50,7 +50,7 @@ além de também permitir ter  cópias dos arquivos salvos na nuvem.
 > - [![Discord](images/slack.jpg)](https://discord.com/)
 > - [![Trello](images/trello.png)](https://trello.com/)
 > 
-> - [![Microsof Teams](images/project.png)](https://teams.microsoft.com/)
+> - [![Microsof Teams](images/teams.png)](https://teams.microsoft.com/)
 > - [![Redbooth](images/redbooth.png)](https://redbooth.com/)
 > - [![Visual Studio Code]](https://visualstudio.microsoft.com/)
 > - [![Miro]](https://miro.com/)
