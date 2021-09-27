@@ -32,19 +32,27 @@ As ferramentas empregadas no projeto são:
 - Editor de código.
 - Ferramentas de comunicação
 - Ferramentas de diagramação
+- IDE no Browser
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+O Visual Studio Code foi escolhido porque ele possui uma integração com o
+sistema de versão e uma grande gama de estensões que auxiliam no desenvolvimento. As ferramentas de comunicação,Discord e o Microsoft Teams,foram utilizadas pois possuem
+integração semelhante,canais de compartilhamento e filmagem de reuniões.Depois, para criar
+diagramas utilizamos o Miro por ter afinidade com a interface e essa ferramenta captar as
+necessidades da nossa solução.Utilizamos o Trello para o gerenciamento de funções de cada integrante do projeto,e usamos
+o Redbooth para gerenciamneto de funcionalidas,além de filtragem e priorização de ideias a serem implementadas.Por fim,utilizamos 
+o recurso de criar equipes no Replit,possibilitando a edição de código de um arquivo simultâneamente por todos os membros do grupo
+além de também permitir ter  cópias dos arquivos salvos na nuvem.
 
 > Liste quais ferramentas foram empregadas no desenvolvimento do
 > projeto, justificando a escolha delas, sempre que possível.
 > 
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [![Slack](images/slack.jpg)](https://slack.com/)
+> - [![Discord](images/slack.jpg)](https://discord.com/)
 > - [![Trello](images/trello.png)](https://trello.com/)
 > 
-> - [![Microsof Project](images/project.png)](https://products.office.com/pt-br/project/project-and-portfolio-management-software)
+> - [![Microsof Teams](images/project.png)](https://teams.microsoft.com/)
 > - [![Redbooth](images/redbooth.png)](https://redbooth.com/)
+> - [![Visual Studio Code]](https://visualstudio.microsoft.com/)
+> - [![Miro]](https://miro.com/)
+> - [![Repl.it]](https://replit.com/)
+> 
