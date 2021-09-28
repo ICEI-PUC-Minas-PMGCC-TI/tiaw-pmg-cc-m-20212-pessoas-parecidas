@@ -8,7 +8,7 @@ Com o advento da pandemia e o aumento da solidão no seculo 21, conectar-se e in
 * Marcus Prado Silva
 * Felipe Augusto Morais Silva
 * Felipe Augusto Maciel Constantino
-* Nome completo do aluno 4
+* Gabriel Da Silva Martins
 
 ## Professores responsáveis
 
