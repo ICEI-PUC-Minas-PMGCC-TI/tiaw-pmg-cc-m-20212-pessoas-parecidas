@@ -110,12 +110,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Moderadores         |Monitorar conteudo/usuários em seus grupos | Manter a qualidade dos grupos |
-|Marco Gomes         |Encontrar pessoas com interesses similares | Permitindo a criação de realações entre usuários sem que eles saiam das suas zonas de conforto|
+|Marco Gomes         |Encontrar pessoas com interesses similares | Permitindo a criação de relações entre usuários sem que eles saiam das suas zonas de conforto|
 |Marco Gomes         |Encontrar alguem para se relacionar mais seriamente | Realizar seu sonho de encontrar alguem especial |
 |Patricia Gonçalves  |Encontrar um ambiente saúdavel para se expressar | Para mostrar e praticar seus interesses sem medo de repressão |
 |Rodrigo Pereira     |Encontar pessoas e formmar amizades           | Encontrar pessoas para ajudar |
 |Rodrigo Pereira     |Encontrar pessoas com interesse na música | Praticar seus interresses musicais |
 |Diego Martins       |Praticar seus hobbies com anonimato | Para não misturar sua vida com seus passatempos|
+|Maria               |Encontrar novos interesses e conhecimentos| Para viver novas esperiencias e se conhecer melhor |
 
 
 > Apresente aqui as histórias de usuário que são relevantes para o
