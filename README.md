@@ -12,8 +12,7 @@ Com o advento da pandemia e o aumento da solidão no seculo 21, conectar-se e in
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Rommel Vieira Carneiro
 
 ## Instruções de utilização
 
