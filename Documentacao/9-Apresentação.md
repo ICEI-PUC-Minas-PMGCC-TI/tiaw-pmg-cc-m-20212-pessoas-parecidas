@@ -9,7 +9,7 @@
 > Arquivo .Word com informacoes alem do slide:(pendente)
 
 ## Título do Projeto
-> Nome e marca do projeto
+> (em discussao)
 
 ## Identidade Visual (Marca, Design)
 > O grupo deve ter o cuidado em utilizar figuras, imagens, e
