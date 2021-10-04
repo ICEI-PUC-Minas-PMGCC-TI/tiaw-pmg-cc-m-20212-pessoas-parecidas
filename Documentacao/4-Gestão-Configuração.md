@@ -16,7 +16,9 @@ O projeto segue a seguinte convenção para o nome de branchs:
 - `master`: versão estável já testada do software
 - `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `develop`: versão de desenvolvimento do software
+- `hotfixes`: versão com algum erro com necessidade de correção imediata
+- `feature`: versão com nova funcionalidade de um release bem mais no futuro
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
