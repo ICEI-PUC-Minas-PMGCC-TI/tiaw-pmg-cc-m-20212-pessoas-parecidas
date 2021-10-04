@@ -3,9 +3,10 @@
 <span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
 
 
-> Conjunto de slides em um arquivo PowerPoint ou PDF
-> com a apresentação do projeto contemplando todos os
-> itens trabalhados nos demais artefatos.
+> Conjunto de slides em um arquivo PowerPoint:
+> [Grupo 11.pptx](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20212-pessoas-parecidas/files/7278800/Grupo.11.pptx)
+> Arquivo .Word com informacoes alem do slide:(pendente)
+-----------------------------------------------
 
 ## Título do Projeto
 > Nome e marca do projeto
