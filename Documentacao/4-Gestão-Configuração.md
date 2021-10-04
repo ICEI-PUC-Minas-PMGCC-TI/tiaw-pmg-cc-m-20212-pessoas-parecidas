@@ -36,6 +36,8 @@ etiquetas:
 - `invalid`: essa parte parece errada
 - `question`: mais informações necessárias para o pull request
 - `wontfixnow`: isso não será trabalhado agora
+- `needtest`: está pronto e necessita ser testado
+- `passedontest`: passou na fase de testes
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
