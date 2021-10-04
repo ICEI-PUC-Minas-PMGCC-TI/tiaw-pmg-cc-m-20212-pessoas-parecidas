@@ -5,10 +5,10 @@
 
 ## Divisão de Papéis
 
-- **Marcus Prado Silva**:Mestre SCRUM e desenvolvedor,deve orgarniza a equipe,horários,reuniões,as tarefas,fazer backlogs dos Sprints e auxilia todos os da equipe que possuirem dúvidas ou dificuldades durante o projeto seja na parte visual,organização de backlogs do produto ou na parte de avaliação de funcionalidades a serem implementadas.
-- **Felipe Augusta Morais Silva**:Analista de UX/UI e desenvolvedor,deve recolher os pedidos dos usertests e propor  tecnologias e ferramentas que possibilitem criar o que os usuários desejaam,atualização de wireframe e layouts quando necessário,criação da identidade visual da aplicação utilizando editores de imagem,e realizar testes de responsividade da aplicação;
-- **Felipe Augusto Maciel Constantino**:Analista de Implementação e desenvolvedor,deve apresentar e organizar as ideias geradas nos "brainstorms" compara-las,avaliar os pontos positivos e negativos de implementa-las.Além de mostrar limitações técnicas e práticas de uma funcionalidade utilizando o um de filtaragem de 5 semanas para todas as funcionalidades da aplicação.
-- **Gabriel Da Silva Martins**:Dono do Produto e desenvolvedor,deve propor uma lista de testes e funcionalidades a serem feitas durante o projeto,deve também organizar usertests,recolher o feeback dos usuários,estruturar user visions/storys e fazer os backlogs do produto. 
+- **Marcus Prado Silva**: Mestre SCRUM e desenvolvedor,deve orgarniza a equipe,horários,reuniões,as tarefas,fazer backlogs dos Sprints e auxilia todos os da equipe que possuirem dúvidas ou dificuldades durante o projeto seja na parte visual,organização de backlogs do produto ou na parte de avaliação de funcionalidades a serem implementadas.
+- **Felipe Augusta Morais Silva**: Analista de UX/UI e desenvolvedor,deve recolher os pedidos dos usertests e propor  tecnologias e ferramentas que possibilitem criar o que os usuários desejaam,atualização de wireframe e layouts quando necessário,criação da identidade visual da aplicação utilizando editores de imagem,e realizar testes de responsividade da aplicação;
+- **Felipe Augusto Maciel Constantino**: Analista de Implementação e desenvolvedor,deve apresentar e organizar as ideias geradas nos "brainstorms" compara-las,avaliar os pontos positivos e negativos de implementa-las.Além de mostrar limitações técnicas e práticas de uma funcionalidade utilizando o um de filtaragem de 5 semanas para todas as funcionalidades da aplicação.
+- **Gabriel Da Silva Martins**: Dono do Produto e desenvolvedor,deve propor uma lista de testes e funcionalidades a serem feitas durante o projeto,deve também organizar usertests,recolher o feeback dos usuários,estruturar user visions/storys e fazer os backlogs do produto. 
 
 
 > Apresente a divisão de papéis entre os membros do grupo.
