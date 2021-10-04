@@ -1,6 +1,13 @@
 # Introdução
 
 ## Problema
+
+**A dificuldade de interação entre pessoas**:
+
+- Dificuldade de conseguir conectar pessoas que possuem interesses, gostos, hobbies, personalidades em comum, afim de estabelecer conexões, novos relacionamentos, formar amizades, proporcionar a prática de atividades conjuntas e assim proporcionar a experiência de compartilhamento de muitos momentos.
+-Situação de isolamento social entre pessoas tímidas.
+-Situação de isolamento social provocada pela pandemia do Corona Vírus
+
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
 > Descreva também o contexto em que essa aplicação será usada, se
@@ -19,6 +26,14 @@
 
 ## Objetivos
 
+-Desenvolver uma página web responsiva que atue como um fórum para diversas comunidades e grupos discutirem, interagirem e dialogar sobre tópicos específicos de discussão disponíveis e acessíveis na plataforma, sendo possível a criação de novos.
+-Permitir compartilhamento de ideias, opiniões, iniciativas.
+
+**Objetivo Específico:**
+
+-Promover diversos eventos na plataforma para proporcionar diversas interações entre as comunidades e grupos de discussão.
+-Ter um impacto positivos e influenciador na vida das pessoas.
+
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
 > apresentado acima. Apresente também alguns (pelo menos 2) objetivos
@@ -29,6 +44,8 @@
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+
+-Queremos alcançar o maior número de pessoas especialmente as introvertidas com intuito de facilitar o processo de construção de novos relacionamentos com bases em tópicos em comum.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação ok
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -43,6 +60,8 @@
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
+
+-Jovens, adultos, estudantes que possuem acesso a smartfone com internet interessados em usar uma aplicação web para encontrar pessoas novas afim de conversarem e se conectarem.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
