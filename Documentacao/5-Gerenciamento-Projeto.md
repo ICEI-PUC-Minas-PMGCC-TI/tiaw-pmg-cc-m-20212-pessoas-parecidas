@@ -71,5 +71,5 @@ além de também permitir ter  cópias dos arquivos salvos na nuvem.
 > - [![Redbooth](images/redbooth.png)](https://redbooth.com/)
 > - [![Visual Studio Code](images/visualstudiocode.jpg)](https://visualstudio.microsoft.com/)
 > - [![Miro](images/mirologo.png)](https://miro.com/)
-> - [![Repl.it](images/replit-logo-png-transparent.png](https://replit.com/)
+> - [![Repl.it](images/replit-logo-png-transparent.png)](https://replit.com/)
 > 
