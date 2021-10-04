@@ -14,6 +14,7 @@ foi utilizado para hospedagem do repositório `upstream`.
 O projeto segue a seguinte convenção para o nome de branchs:
 
 - `master`: versão estável já testada do software
+- `gh-pages` : versão que está sendo hospedada
 - `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
 - `develop`: versão de desenvolvimento do software
@@ -40,7 +41,7 @@ etiquetas:
 - `needtest`: está pronto e necessita ser testado
 - `passedontest`: passou na fase de testes
 
-Esse projeto possui sete branchs,no início do desenvolvimento o código
+Esse projeto possui oito branchs,no início do desenvolvimento o código
 começará no `develop`,caso suja a ideia de uma funcionalidade que pode 
 modificar muito o código e será implementada somente em versões futuras 
 ele será feito no branch`feature` e será criado um issue sobre isso com a 
@@ -58,7 +59,7 @@ corrigida com prioridade ela será merged para `hotfixes`,e quando acabar voltar
 e depois `release`.
 
 Caso a versão esteja pronta para teste,merged para `testing`e depois para `unstable`
-onde será testada,se passar em todos os testes será merged para o master e hospedada usando Github 
+onde será testada,se passar em todos os testes será merged para o `master` e depois `gh-pages`onde será hospedada usando Github 
 Pages.Entretanto,se falhar nos testes voltará para `develop`,onde será criado issues usando tags
 `bugfix`,`unknownbug` e `enhancement` para informar os problemas encontrados nos testes.
 
