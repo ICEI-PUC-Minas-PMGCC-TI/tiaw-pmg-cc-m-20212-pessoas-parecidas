@@ -24,6 +24,16 @@ etiquetas:
 - `bugfix`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
+- `unknownbug`: problema não rastreado
+- `needresearch`: precisa de mais pesquisa para implementar
+- `documentation`: incremento ou adicionamento na documentação
+- `duplicate`: esse issue ou pull request já existia
+- `good first issue`: comece por aqui
+- `team help`: integrante precisando de ajuda na tarefa
+- `attention`: atenção extra é necessária
+- `invalid`: essa parte parece errada
+- `question`: mais informações necessárias para o pull request
+- `wontfixnow`: isso não será trabalhado agora
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
