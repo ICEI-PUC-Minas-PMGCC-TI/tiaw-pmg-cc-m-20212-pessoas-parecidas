@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação.md"> Documentação de Especificação</a></span>
+<span style="color:red">link da interface interativa no figma <a href="2-Especificação.md">https://www.figma.com/file/EN6tA5hbqYgQ4lREIpQtdP/Untitled?node-id=18%3A4813</a></span>
 
 > Apresente as principais a interface da plataforma. Discuta como ela
 > foi elaborada de forma a atender os requisitos funcionais, não
