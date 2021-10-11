@@ -24,7 +24,8 @@
 
 ## Wireframes
 
-![Exemplo de Wireframe](images/wireframe-example.png)
+link do wireframe feito no figma:
+!https://www.figma.com/file/EN6tA5hbqYgQ4lREIpQtdP/Untitled?node-id=18%3A4813
 
 > São protótipos usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
