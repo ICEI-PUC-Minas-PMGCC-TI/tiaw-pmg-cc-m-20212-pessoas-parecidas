@@ -3,11 +3,6 @@
 
 <span style="color:red">link da interface interativa no figma <a href="2-Especificação.md">https://www.figma.com/file/EN6tA5hbqYgQ4lREIpQtdP/Untitled?node-id=18%3A4813</a></span>
 
-> Apresente as principais a interface da plataforma. Discuta como ela
-> foi elaborada de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](2-Especificação.md).
-
 ## User Flow
 
 ![Exemplo de UserFlow](images/image.png)
