@@ -2,6 +2,64 @@
 
 /*!-----------------------------------Navbar section------------------------------------->*/
 
-.nav-link{
-    background: none;
+#header{
+    /*background da navbar*/
+    background-image: url(./Img/navbarFelipe.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 10rem;
+    background-position-x: 0rem;
+
+    /*borda da navbar*/
+    border: transparent;
+    border-top-width: 0rem;
+    border-bottom-width: 0.2rem;
+    border-block-style: groove;
+    border-image: linear-gradient(to right,blue, green,pink ,yellow,purple) 30;
+    
 }
+.nav-item{
+    padding-inline: 2rem;
+}
+/*botoes da navbar*/
+.nav-item a{
+    color: rgb(255, 255, 255) !important;
+}
+.nav-item a:hover{
+    animation: change-color 5s linear forwards infinite alternate;
+
+}
+/*keyframes da animacao dos botoes*/
+@keyframes change-color{
+    0%{
+
+    }
+    33%{
+        background-color: green;
+    }
+    66%{
+        background-color: pink;
+    }
+    100% {
+        background-color: purple;
+        color: linear-gradient(to right,blue, green,pink ,yellow,purple)!important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .nav-item a{
+        color: black !important;
+        background:none;
+        animation: none;
+    }
+    .nav-item a:hover{
+        color: black !important;
+        background: none;
+        animation: none;
+    }
+}
+a.nav-link.btn-dark{
+    border-radius: 0.8rem;
+}
+/*!-----------------------------------END Navbar section------------------------------------->*/
+
+/*todo-----------------------------------Body 1st row------------------------------------->*/
