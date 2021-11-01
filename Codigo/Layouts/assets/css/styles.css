@@ -1,0 +1,164 @@
+/* * CSS stylesheet by Felipe Augusto Morais Silva */
+
+/*?----------------------------------Global defs---------------------------------------*/
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
+.row{
+  justify-content: center;
+}
+/*!---------------------------------END Global defs------------------------------------*/
+/*todo-----------------------------------Navbar section-------------------------------------> */
+
+#header {
+  background-color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 10rem;
+  background-position-x: 0rem;
+  border: transparent;
+  border-top-width: 0rem;
+  border-bottom-width: 0.2rem;
+  border-block-style: groove;
+  border-image: linear-gradient(to right, blue, green, pink, yellow, purple) 30;
+}
+
+.nav-item {
+  padding-inline: 2rem;
+}
+
+/* botoes da navbar */
+
+.nav-item a {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-item a:hover {
+  animation: change-color 5s linear forwards infinite alternate;
+}
+
+/* keyframes da animacao dos botoes */
+
+@keyframes change-color {
+  0% {}
+  33% {
+    background-color: green;
+  }
+  66% {
+    background-color: pink;
+  }
+  100% {
+    background-color: purple;
+    color: linear-gradient(to right, blue, green, pink, yellow, purple)!important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-item a {
+    color: black !important;
+    background: none;
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-item a:hover {
+    color: black !important;
+    background: none;
+    animation: none;
+  }
+}
+
+a.nav-link.btn-dark {
+  border-radius: 0.8rem;
+}
+
+/* !-----------------------------------END Navbar section-------------------------------------> */
+
+/* todo-----------------------------------Body 1st row-------------------------------------> */
+
+.title-1 {
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.title-1 h1 {
+  font-weight: bold;
+  color: inherit;
+}
+
+/* todo-----------------------------------Body Carousel-------------------------------------> */
+.title-2 {
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.title-2 h1 {
+  font-weight: bold;
+  color: inherit;
+}
+.carousel-section{
+  align-items: center;
+  background-size:auto;
+}
+.carousel{
+  display:grid;
+  padding: 1rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media only screen and (max-width:1500px) {
+.w-100{
+  max-width: 100% !important;
+}
+}
+@media only screen and (min-width: 1501px) {
+
+.w-100{
+  width: auto !important;
+  /* padding-inline: 15rem; */
+}
+}
+/*! --------------------------------------END Body Carousel-------------------------------------*/
+/*todo -----------------------------------HOW Section-------------------------------------------*/
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+.how-section1 h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+.how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
+  height: 17rem;
+  width: 17rem;
+}
+.rounded-circle{
+  max-height: 17rem;
+}
+
+#lastT{
+  margin-left: 1rem;
+}

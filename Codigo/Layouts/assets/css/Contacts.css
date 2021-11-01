@@ -1,0 +1,99 @@
+/* * CSS stylesheet by Felipe Augusto Morais Silva */
+
+.Contacts {
+  color: #313437;
+  background-color: #fff;
+}
+/** ------------------------------Parte de texto dos contados------------------------- */
+.Contacts p {
+  color: #7d8285;
+}
+
+.Contacts a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.Contacts h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .Contacts h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.Contacts .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Contacts .intro p {
+  margin-bottom: 0;
+}
+
+.Contacts .people {
+  padding-bottom: 40px;
+}
+
+.Contacts .item {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Contacts .item img {
+  max-width: 160px;
+}
+/*!------------------------------ End parte do texto dos contatos------------------------- */
+
+/**------------------------------Decoracoes dos cards e animacoes-------------------------*/
+.Contacts .card {
+  display: inline-block;
+  align-items: center;
+  border-image: linear-gradient(to right, blue, green, pink, yellow, purple) 30;
+  margin-bottom: 1%;
+}
+.Contacts .card:hover{
+  animation-name: border-color;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-direction:alternate;
+  animation-fill-mode: forwards;
+
+}
+@keyframes border-color{
+  0% {border-image: linear-gradient(to right, blue, green, pink, yellow, purple) 30; box-shadow: 0.1rem 0.1rem #7d8285; top: -1px;}
+  25%{border-image: linear-gradient(to right, green, pink, yellow, purple, blue) 30; box-shadow: 0.2rem 0.2rem #7d8285; top: -2px}
+  50%{border-image: linear-gradient(to right, pink, yellow, purple, blue, green) 30; box-shadow: 0.3rem 0.3rem #7d8285; top: -3px}
+  75%{border-image: linear-gradient(to right, yellow, purple, blue, green, pink) 30; box-shadow: 0.4rem 0.4rem #7d8285; top: -4px}
+  100%{border-image: linear-gradient(to right, purple, blue, green, pink, yellow) 30; box-shadow:0.5rem 0.5rem 0.1rem #7d8285; top: -5px}
+}
+@keyframes shadow{
+  0% {box-shadow: 0.1rem 0.1rem;}
+  25%{box-shadow: 0.2rem 0.2rem;}
+  50%{box-shadow: 0.3rem 0.3rem;}
+  75%{box-shadow: 0.4rem 0.4rem;}
+  100%{box-shadow:0.5rem 0.5rem;}
+}
+
+@media only screen and (min-width:992px) {
+  
+  .Contacts .card.card-1{
+    margin-inline-end: 5%;
+  }
+  .Contacts .card.card-3{
+    margin-inline-end: 5%;
+  }
+}
+.Contacts{
+  background-color: rgba(238, 244, 247, 1);
+}
+
+/*!------------------------------END Decoracoes dos cards e animacoes-------------------------*/
