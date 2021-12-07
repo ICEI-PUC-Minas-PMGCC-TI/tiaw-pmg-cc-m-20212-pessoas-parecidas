@@ -47,7 +47,6 @@
 
 ## Justificativa
 
-- Teste Felipe
 - Queremos alcançar o maior número de pessoas especialmente as introvertidas com intuito de facilitar o processo de construção de novos relacionamentos com bases em tópicos em comum.
 -Queremos poder conectar ainda mais  pessoas de todas as diferentes localidades no meio web e presencial afim de proporcionar interações ( participação em eventos , incentivar a comunicação entre o usuários, protagonismo do usuário na comunidade ao qual ele e participante...)
 
