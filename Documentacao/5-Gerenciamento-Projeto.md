@@ -9,13 +9,6 @@
 - **Felipe Augusto Maciel Constantino**: Analista de Implementação e desenvolvedor,deve apresentar e organizar as ideias geradas nos "brainstorms" compara-las,avaliar os pontos positivos e negativos de implementa-las.Além de mostrar limitações técnicas e práticas de uma funcionalidade utilizando o um de filtaragem de uma semana para todas as funcionalidades da aplicação.
 - <s>**Gabriel Da Silva Martins**: Dono do Produto e desenvolvedor,deve propor uma lista de testes e funcionalidades a serem feitas durante o projeto,deve também organizar usertests, recolher o feeback dos usuários,estruturar user visions/storys e fazer os backlogs do produto </s> 
 
-> Apresente a divisão de papéis entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ## Processo
 
 Todos da equipe devem verificar diariamente os afazeres da equipe até a entrega do próximo Sprint no Trello,
@@ -28,17 +21,6 @@ Depois desse processo,o Mestre SCRUM vai recolher todos essas informações apre
 durante as reuniões, ele atualizará os quadros de tarefas,irá auxiliar nas tarefas que não alcançaram o rendimento proposto pelo cronograma e vai dividir as tarefas dos próximos Sprints em módulos de obrigações de cada membro na próxima fase,tanto em suas tarefas dentro da metodologia SCRUM quanto suas tarefas como desenvolvedores.
 
 Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Knaban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
-
-> Coloque  informações sobre detalhes da implementação do Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Ferramentas
 
@@ -60,9 +42,6 @@ além de também permitir ter  cópias dos arquivos salvos na nuvem.
 Construção dos wireframes do projeto pela a plataforma Figma e desenvolvimento compartilhado do código da nossa aplicação pelo Git e GitHub.  
 
 
-> Liste quais ferramentas foram empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [![Discord](images/discord.jpg)](https://discord.com/)
 > - [![Trello](images/trello.png)](https://trello.com/)
