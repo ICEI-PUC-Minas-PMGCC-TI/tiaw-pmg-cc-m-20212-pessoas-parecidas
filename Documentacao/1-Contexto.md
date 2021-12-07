@@ -47,24 +47,14 @@
 
 ## Justificativa
 
+- Com o advento da pandemia, as doenças de ordem psicológica passaram a ter uma carga ainda maior sobre a população mundial, tendo o brasil como pivô quando se trata desse tipo de problema, visto que, durante a epidemia, segundo dados obtidos pela BBC, [o povo brasileiro é o que mais sente solidão.](https://www.bbc.com/portuguese/brasil-56275133). Ademais, é oportuno frisar que, [o numero de brasileiros que acessa a internet aumentou durante a crise](https://olhardigital.com.br/2021/08/18/internet-e-redes-sociais/com-aumento-na-pandemia-brasil-chega-a-152-milhoes-usuarios-de-internet/). Portanto, considerando o momento atual, o grupo considerou válida e coerente investir em uma iniciativa com o intuito de conectar pessoas.
 - Queremos alcançar o maior número de pessoas especialmente as introvertidas com intuito de facilitar o processo de construção de novos relacionamentos com bases em tópicos em comum.
--Queremos poder conectar ainda mais  pessoas de todas as diferentes localidades no meio web e presencial afim de proporcionar interações ( participação em eventos , incentivar a comunicação entre o usuários, protagonismo do usuário na comunidade ao qual ele e participante...)
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação ok
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+- Queremos poder conectar ainda mais  pessoas de todas as diferentes localidades no meio web e presencial afim de proporcionar interações ( participação em eventos , comunicação entre o usuários, protagonismo do usuário na comunidade da qual ele participa...)
 
 ## Público-Alvo
 
 - Jovens, adultos, estudantes que possuem acesso a smartphone com internet, interessados em usar uma aplicação web para encontrar pessoas novas afim de conversarem e se conectarem.
+- Nosso público alvo são, em geral, adolescentes e jovens adultos, pois segundo dados da [UNICEF](https://agenciabrasil.ebc.com.br/educacao/noticia/2021-10/relatorio-aponta-impacto-da-pandemia-na-saude-mental-de-adolescentes), esses dois grupos são os mais afetados quando se trata de saúde mental na pandemia. Além disso, também é [fato](https://www.gov.br/mcom/pt-br/noticias/2021/abril/pesquisa-mostra-que-82-7-dos-domicilios-brasileiros-tem-acesso-a-internet#:~:text=Em%202019%2C%20entre%20as%20183,estudantes%20(75%2C8%25).) que esses dois grupos englobam a maior parte dos usuários da rede, e por isso fazem parte de um público alvo indispensável para o mercado da nossa aplicação.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -80,4 +70,3 @@
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
