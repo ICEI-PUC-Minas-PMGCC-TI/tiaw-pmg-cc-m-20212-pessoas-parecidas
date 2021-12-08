@@ -85,16 +85,16 @@ não julguem ela por sua aparência e que façam ela melhorar no seus estudos de
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Moderadores         |Monitorar conteudo/usuários em seus grupos | Manter a qualidade dos grupos |
-|Marco Gomes         |Encontrar pessoas com interesses similares | Permitindo a criação de relações entre usuários sem que eles saiam das suas zonas de conforto|
-|Marco Gomes         |Encontrar alguem para se relacionar mais seriamente | Realizar seu sonho de encontrar alguem especial |
-|Patricia Gonçalves  |Encontrar um ambiente saúdavel para se expressar | Para mostrar e praticar seus interesses sem medo de repressão |
-|Rodrigo Pereira     |Encontar pessoas e formmar amizades           | Encontrar pessoas para ajudar |
-|Rodrigo Pereira     |Encontrar pessoas com interesse na música | Praticar seus interresses musicais |
-|Diego Martins       |Praticar seus hobbies com anonimato | Para não misturar sua vida com seus passatempos|
-|Maria               |Encontrar novos interesses e conhecimentos| Para viver novas esperiencias e se conhecer melhor |
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                  | PARA ... `MOTIVO/VALOR`                                                                       |
+| -------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Moderadores          | Monitorar conteudo/usuários em seus grupos          | Manter a qualidade dos grupos                                                                 |
+| Marco Gomes          | Encontrar pessoas com interesses similares          | Permitindo a criação de relações entre usuários sem que eles saiam das suas zonas de conforto |
+| Marco Gomes          | Encontrar alguem para se relacionar mais seriamente | Realizar seu sonho de encontrar alguem especial                                               |
+| Patricia Gonçalves   | Encontrar um ambiente saúdavel para se expressar    | Para mostrar e praticar seus interesses sem medo de repressão                                 |
+| Rodrigo Pereira      | Encontar pessoas e formmar amizades                 | Encontrar pessoas para ajudar                                                                 |
+| Rodrigo Pereira      | Encontrar pessoas com interesse na música           | Praticar seus interresses musicais                                                            |
+| Diego Martins        | Praticar seus hobbies com anonimato                 | Para não misturar sua vida com seus passatempos                                               |
+| Maria                | Encontrar novos interesses e conhecimentos          | Para viver novas esperiencias e se conhecer melhor                                            |
 
 
 ## Requisitos
@@ -103,43 +103,43 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-----|
-|RF-001| Permitir que o usuário se cadastre      |ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   |MÉDIA|
-|RF-003| Infraestrutura                          |ALTA |
-|RF-004| Mecanismos de busca                     |ALTA |
-|RF-005| Anonimato                               |MÉDIA|
-|RF-006| Interface dinâmica                      |ALTA |
-|RF-007| Políticas de privacidade                |MÉDIA|
-|RF-008| Gerenciamento de conteúdo               |ALTA |
+| ID     | Descrição do Requisito                | Prioridade |
+| ------ | ------------------------------------- | ---------- |
+| RF-001 | Permitir que o usuário se cadastre    | ALTA       |
+| RF-002 | Infraestrutura                        | ALTA       |
+| RF-003 | Mecanismos de busca                   | ALTA       |
+| RF-004 | Interface dinâmica                    | ALTA       |
+| RF-005 | Gerenciamento de conteúdo             | ALTA       |
+| RF-006 | Emitir um relatório de tarefas no mês | MÉDIA      |
+| RF-007 | Anonimato                             | MÉDIA      |
+| RF-008 | Políticas de privacidade              | MÉDIA      |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Sistema automatizado de banimentos | MÉDIA |
-|RNF-004| Remoção de grupos inúteis automaticamente | BAIXA |
-|RNF-005| Sistema de eleição de moderadores da comunidade | MEDIA |
-|RNF-006| Sistema de "report" | MÉDIA |
-|RNF-007| Customização do perfil do usuário/além do necessário | BAIXA |
+| ID      | Descrição do Requisito                                            | Prioridade |
+| ------- | ----------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      |
+| RNF-002 | Sistema automatizado de banimentos                                | MÉDIA      |
+| RNF-003 | Sistema de eleição de moderadores da comunidade                   | MEDIA      |
+| RNF-004 | Sistema de "report"                                               | MÉDIA      |
+| RNF-005 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-006 | Remoção de grupos inúteis automaticamente                         | BAIXA      |
+| RNF-007 | Customização do perfil do usuário/além do necessário              | BAIXA      |
 
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Não conseguimos controlar o caráter do usuário        |
-|04| Não é possivel que Membros da equipe monitorem todos os grupos|
-|05| Grupos podem se tornar obsoletos                      |
-|06| Nivel de anonimato dos usuários                       |
-|07| Barreiras linguísticas                                |
-|08|                                                       |
-|09|                                                       |
-|10|                                                       |
+| ID  | Restrição                                             |
+| --- | ----------------------------------------------------- |
+| 01  | O projeto deverá ser entregue até o final do semestre |
+| 02  | Não pode ser desenvolvido um módulo de backend        |
+| 03  | Não conseguimos controlar o caráter do usuário        |
+| 04  | Não é possivel monitorar todos os grupos              |
+| 05  | Grupos podem se tornar obsoletos                      |
+| 06  | Nivel de anonimato dos usuários                       |
+| 07  | Barreiras linguísticas                                |
+| 08  |                                                       |
+| 09  |                                                       |
+| 10  |                                                       |
