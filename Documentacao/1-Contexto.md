@@ -36,6 +36,11 @@ no convívio em um mundo pós pandemia, é necessário fazer algo.
 Esses jovens precisam conhecer e interagir com pessoas novas para tentar manter saudável psicologicamente nesse contexto de pandemia e posteriormente se encontrar com essas pessoas que ajudaram umas às outras
 durante esses tempos difíceis para todos. 
 
+Fontes:
+1. [Agencia Brasil](https://agenciabrasil.ebc.com.br/saude/noticia/2021-03/pandemia-afeta-saude-mental-de-criancas-e-jovens-dizem-psiquiatras#:~:text=Pandemia%20afeta%20sa%C3%BAde%20mental%20de%20crian%C3%A7as%20e%20jovens%2C,Medicina%20da%20Universidade%20de%20S%C3%A3o%20Paulo%20%28FM-USP%29%2C%20)
+2. [BBC](https://www.bbc.com/portuguese/brasil-56275133)
+3. [Unicamp](https://www.blogs.unicamp.br/covid-19/da-pandemia-a-solidao-a-distancia-fisica-entre-nos/)
+4. [Exame](https://exame.com/blog/nosso-olhar/a-solidao-e-uma-pandemia-oculta-entenda/)
 ## Objetivos
 
 - Desenvolver uma página web responsiva que atue como um fórum para diversas comunidades e grupos discutirem, interagirem e dialogarem sobre tópicos específicos, permitindo o compartilhamento de ideias, opiniões, iniciativas e também a promoção de eventos entre os membros e usuários da plataforma.
