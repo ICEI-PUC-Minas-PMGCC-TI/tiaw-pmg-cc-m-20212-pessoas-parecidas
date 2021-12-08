@@ -4,47 +4,47 @@
 
 **A dificuldade de interação entre pessoas**:
 
-- Dificuldade de conseguir conectar pessoas que possuem interesses, gostos, hobbies, personalidades parecidas, afim de estabelecer conexões, novos relacionamentos, formar amizades, icentivar a prática de atividades conjuntas e assim proporcionar a experiência de compartilhamento de muitos momentos.
-- A plataforma poder atuar como uma facilitadora para que pessoas de diferetes localidades possoam estabelecer conexões.
-- Situação de isolamento social entre pessoas tímidas.
-- Situação de isolamento social provocada pela pandemia do Corona Vírus
+Com a chegada da pandemia o distanciamento social
+se tornou um hábito na vida de todas as pessoas.
+Isolados dentro dos lares e ilhados por informação dos meios de comunicação, 
+algumas emoções se tornaram comuns no dia a dia das pessoas, 
+entre elas confusão, ansiedade e, principalmente, solidão.
+O ser humano é uma espécie que é social por natureza essa atual situação 
+pode danificar as capacidades socias tanto dessa como das próximas gerações.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Algo que tem sido pouco discutido é quais serão os resultados psicológicos da volta à
+das interações como elas era antes da pandemia. Um bom exemplo disso é a o contato físico,
+em um mundo pós-pandemia será que as pessoas terão o mesmo nível de contato físico de antes?
+Outro exemplo se trata da questão do contato com idosos, será que idosos não vão ficar com medo
+de receberem visitas de pessoas mais novas ou parentes que tem rotinas na qual eles encontram mutas pessoas?
+ 
+Vivemos em tempos onde muita informação é criada e disseminada muito rapidamente, a alienação
+a tanta informação virou o padrão na vida de muitas pessoas. Segundo a frase do filósofo moderno Zygmunt Bauman disse que “Vivemos tempos líquidos. Nada é feito para durar”,
+essa frase representa bem o contexto atual em que vivemos. Cercados de informações e inseguranças as nossas relações
+interpessoais se tornam cada vez mais voláteis e confusas. As redes socias acabam intensificando essa ansiedade presente. Um estudo realizado pela Universidade de Pittsburgh, com a participação de quase dois mil adultos entre 19 e 32 anos que usam redes sociais como Snapchat, Vine, Twitter, Facebook e Instagram, aponta que os indivíduos que mais se sentem isolados socialmente são aqueles que gastam mais tempo navegando pelas plataformas. 
+
+Em uma matéria da BBC feita em março de 2021, após um levantamento feito pelo instituto Ipsos em 28 países feito entre dezembro de 2020 e janeiro de 2021,
+o Brasil foi classificado como o povo que mais se sente solitário sendo que 50% dos entrevistados disseram sentir solidão "frequentemente" ou "sempre".
+Essa atual situação do mundo afeta bastante a população brasileira em específico, pois os brasileiros são um povo que são culturalmente receptivos e tem maior necessidade de contato físico com as outras pessoas.
+
+Nesse contexto os jovens foram menos infectados, porém eles têm apresentado questões além da contaminação, como por exemplo a negligencia. Segundo o médico, sintomas como irritabilidade, mudanças de humor, insônia, dificuldade de concentração pode ser fáceis de se identificar em adultos, mas apresentam diversas nuances quando se trata de crianças e adolescentes,"
+sintomas como irritabilidade, mudanças de humor, insônia, dificuldade de concentração pode ser fáceis de se identificar em adultos, mas apresentam diversas nuances quando se trata de crianças e adolescentes”. Esse cenário atual pode causar graves mudanças irreversíveis no desenvolvimento desses jovens e também criar um grande déficit na sociedade nos próximos
+anos. Está se tornando algo cada vez mais comum a perda de emprego e a desistência de alguns jovens em estudar tanto nas faculdades como nos colégios. O jovem em situações como essas
+acaba se sentindo mais confuso, sozinho e pessimista. Esse tipo de pensamento somente atrapalha esse jovem a resolver suas questões, e essa situação pode se agravar ainda mais se esse jovem for naturalmente mais introvertido do que os demais. Um jovem assim pode acabar desenvolvendo vários problemas psicológicos por conta dessa solidão, tendo isso em mente e o fato as mudanças 
+no convívio em um mundo pós pandemia, é necessário fazer algo.
+
+Esses jovens precisam conhecer e interagir com pessoas novas para tentar manter saudável psicologicamente nesse contexto de pandemia e posteriormente se encontrar com essas pessoas que ajudaram umas às outras
+durante esses tempos difíceis para todos. 
 
 ## Objetivos
 
-- Desenvolver uma página web responsiva que atue como um fórum para diversas comunidades e grupos discutirem, interagirem e dialogarem sobre tópicos específicos de discussão disponíveis e acessíveis na plataforma, sendo possível a criação de novos.
-- Permitir compartilhamento de ideias, opiniões, iniciativas.
-- Promover eventos para promover diferentes iniciativas (aprendizados, discussões, ensino, diversão, competição, entretenimento ...)
+- Desenvolver uma página web responsiva que atue como um fórum para diversas comunidades e grupos discutirem, interagirem e dialogarem sobre tópicos específicos, permitindo o compartilhamento de ideias, opiniões, iniciativas e também a promoção de eventos entre os membros e usuários da plataforma.
 
 **Objetivo Específico:**
 
-- Promover diversos eventos na plataforma para incentivar a comunicação entre os usuários e proporcionar  diversas interações entre as comunidades e grupos de discussão.
 - Ter um impacto positivos e influenciador na vida das pessoas.
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+- Mitigar parte dos efeitos da solidão na pandemia. 
+- Criar uma aplicação web com espaço para crescimento futuro.
 ## Justificativa
 
 - Com o advento da pandemia, as doenças de ordem psicológica passaram a ter uma carga ainda maior sobre a população mundial, tendo o brasil como pivô quando se trata desse tipo de problema, visto que, durante a epidemia, segundo dados obtidos pela BBC, [o povo brasileiro é o que mais sente solidão.](https://www.bbc.com/portuguese/brasil-56275133). Ademais, é oportuno frisar que, [o numero de brasileiros que acessa a internet aumentou durante a crise](https://olhardigital.com.br/2021/08/18/internet-e-redes-sociais/com-aumento-na-pandemia-brasil-chega-a-152-milhoes-usuarios-de-internet/). Portanto, considerando o momento atual, o grupo considerou válida e coerente investir em uma iniciativa com o intuito de conectar pessoas.
