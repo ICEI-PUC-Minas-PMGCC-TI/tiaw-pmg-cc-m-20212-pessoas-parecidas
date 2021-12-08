@@ -53,20 +53,6 @@
 
 ## Público-Alvo
 
-- Jovens, adultos, estudantes que possuem acesso a smartphone com internet, interessados em usar uma aplicação web para encontrar pessoas novas afim de conversarem e se conectarem.
 - Nosso público alvo são, em geral, adolescentes e jovens adultos, pois segundo dados da [UNICEF](https://agenciabrasil.ebc.com.br/educacao/noticia/2021-10/relatorio-aponta-impacto-da-pandemia-na-saude-mental-de-adolescentes), esses dois grupos são os mais afetados quando se trata de saúde mental na pandemia. Além disso, também é [fato](https://www.gov.br/mcom/pt-br/noticias/2021/abril/pesquisa-mostra-que-82-7-dos-domicilios-brasileiros-tem-acesso-a-internet#:~:text=Em%202019%2C%20entre%20as%20183,estudantes%20(75%2C8%25).) que esses dois grupos englobam a maior parte dos usuários da rede, e por isso fazem parte de um público alvo indispensável para o mercado da nossa aplicação.
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Desses grupos buscamos atingir principalmente pessoas com caracteristicas de personalidade introvertida, ou seja, que possuem certa dificuldade em interagir com outros "cara-a-cara" ou que se sentem mais confortaveis ao se comunicarem pela internet. Dessa forma ajudando essas pessoas a criar novas conexões/amizades, que junto às utilidades podem se tornar amizades também fora da internet.
+- Além disso com a pandemia mais e mais pessoas desse grupo se sentem sozinhos e buscam novas maneiras de interagir com outras pessoas, e sem a possibilidade de sair de casa, devido a situação atual, nosso projeto poderá ajuda-los.
