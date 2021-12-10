@@ -1,0 +1,1 @@
+local para api/paginas/funcionalidades prontas para serem colocadas nos templates
