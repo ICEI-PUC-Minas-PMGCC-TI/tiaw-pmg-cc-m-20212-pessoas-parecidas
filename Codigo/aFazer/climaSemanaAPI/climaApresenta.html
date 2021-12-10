@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="resultados" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="climaEstilo.css">
+
+    <title>tempo da semana</title>
+</head>
+
+<body onload="DefaultScreen()">
+    <center>
+        <h1 id="Para1">Vai fazer um evento essa semana? Veja a previsão do tempo:</h1>
+
+        <form id="inputContainer">Testes: <select type="text" id="cityInput">
+                
+                <option value="florianopolis">Florianopolis</option>
+                <option value="São Paulo">teste1</option>
+                <option value="asahdhadhad">teste2</option>
+                
+
+            </select>
+            <span><button type="button" onclick="GetInfo()">pesquisar</button></span>
+
+            <h1 id="nomeCidade">florianopolis</h1>
+    </center>
+
+    <div id="weatherContainer">
+        <div id="iconsContainer">
+
+            <div class="icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="icons/unknown.png" class="imgClass" id="img1"></div>
+                <p class="minValues" id="day1Min">Loading...</p>
+                <p class="maxValues" id="day1Max">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="icons/unknown.png" class="imgClass" id="img2"></div>
+                <p class="minValues" id="day2Min">Loading...</p>
+                <p class="maxValues" id="day2Max">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="icons/unknown.png" class="imgClass" id="img3"></div>
+                <p class="minValues" id="day3Min">Loading...</p>
+                <p class="maxValues" id="day3Max">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="icons/unknown.png" class="imgClass" id="img4"></div>
+                <p class="minValues" id="day4Min">Loading...</p>
+                <p class="maxValues" id="day4Max">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="icons/unknown.png" class="imgClass" id="img5"></div>
+                <p class="minValues" id="day5Min">Loading...</p>
+                <p class="maxValues" id="day5Max">Loading...</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="clima.js"></script>
+
+
+</body>
+
+</html>
