@@ -16,7 +16,7 @@
 
 </head>
 
-<body onLoad="init(), colorMBTI()" style="padding-top: 0;">
+<body onLoad="init(), randomizer()" style="padding-top: 0;">
     <div id="header">
         <div class="container-fluid">
             <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
@@ -182,7 +182,7 @@
                     <section class="box widget weather" style="margin-top:1.2rem">
                         <header class="header">
                             <div class="temp">
-                                <p id="mbti">INTP</p> <span class="fa fa-cogs"></span>
+                                <p id="mbti"></p><span class="fa fa-cogs"></span>
                             </div>
                             <span class="icon-partlycloudy"></span>
                         </header>
@@ -210,36 +210,89 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
     <script>
+
         var r = document.querySelector(':root');
         var rs = getComputedStyle(r);
         var analysts = rs.getPropertyValue('--analysts_color');
         var diplomats = rs.getPropertyValue('--diplomats_color');
         var sentinels = rs.getPropertyValue('--sentinels_color');
         var explorers = rs.getPropertyValue('--explorers_color');
-
-
-        console.log(r);
         const mbti = document.getElementById("mbti");
-        const texto = mbti.innerText; 
+        const texto = mbti.innerText;
 
-        function colorMBTI() {
-            if (texto == 'INTJ' || texto == 'INTP' || texto == 'ENTJ' || texto == 'ENTP') {
+        function randomizer() {
+            var numero = Math.floor(Math.random() * 16);
+            switch (numero) {
+                case 0:
+                    mbti.innerText = 'INTJ';
+                    break;
+                case 1:
+                    mbti.innerText = 'INTP';
+                    break;
+                case 2:
+                    mbti.innerText = 'ENTJ';
+                    break;
+                case 3:
+                    mbti.innerText = 'ENTP';
+                    break;
+                case 4:
+                    mbti.innerText = 'INFJ';
+                    break;
+                case 5:
+                    mbti.innerText = 'INFP';
+                    break;
+                case 6:
+                    mbti.innerText = 'ENFJ';
+                    break;
+                case 7:
+                    mbti.innerText = 'ENFP';
+                    break;
+                case 8:
+                    mbti.innerText = 'ISTJ';
+                    break;
+                case 9:
+                    mbti.innerText = 'INFJ';
+                    break;
+                case 10:
+                    mbti.innerText = 'ESTJ';
+                    break;
+                case 11:
+                    mbti.innerText = 'ESFJ';
+                    break;
+                case 12:
+                    mbti.innerText = 'ISTP';
+                    break;
+                case 13:
+                    mbti.innerText = 'INFP';
+                    break;
+                case 14:
+                    mbti.innerText = 'ESTP';
+                    break;
+                case 15:
+                    mbti.innerText = 'ESFP';
+                    break;
+                default:
+                    mbti.innerText = 'MBTI';
+                    break;
+            }
+
+            if (numero == 0 || numero == 1 || numero == 2 || numero == 3) {
                 r.style.setProperty('--default-page-color', `${analysts}`);
             }
-            else if(texto == 'INFJ' || texto == 'INFP' || texto == 'ENFJ' || texto == 'ENFP')
-            {
+            else if (numero == 4 || numero == 5 || numero == 6 || numero == 7) {
                 r.style.setProperty('--default-page-color', `${diplomats}`);
             }
-            else if (texto == 'ISTJ' || texto == 'ISFJ' || texto == 'ESTJ' || texto == 'ESFJ')
-            {
+            else if (numero == 8 || numero == 9 || numero == 10 || numero == 11) {
                 r.style.setProperty('--default-page-color', `${sentinels}`);
             }
-            else if (texto == 'ISTP' || texto == 'ISFP' || texto == 'ESTP' || texto == 'ESFP')
-            {
-                r.style.setProperty('--default-page-color', `${sentinels}`);
+            else if (numero == 12 || numero == 13 || numero == 14 || numero == 15) {
+                r.style.setProperty('--default-page-color', `${explorers}`);
             }
+
         }
+
     </script>
     <script>
 

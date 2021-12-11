@@ -1,6 +1,6 @@
 :root {
   /*Definicao de variaveis*/
-  --default-page-color: rgba(221, 85, 85, 1);
+  --default-page-color: rgb(88, 88, 88);
   --analysts_color: rgba(136, 97, 154, 1);
   --diplomats_color: rgba(51, 164, 116, 1);
   --sentinels_color: rgba(66, 152, 180, 1);
@@ -38,11 +38,11 @@ body {
   color: #929797;
 }
 .btn.btn-primary {
-  background: #dd5555;
+  background: var(--default-page-color);
   color: rgba(255, 255, 255, 0.9);
 }
 .btn.btn-primary:hover, .btn.btn-primary.active {
-  background: #d94040;
+  background: var(--default-page-color);
 }
 .btn.btn-large {
   padding: 12px 28px;
@@ -89,7 +89,7 @@ input[type=text]:focus {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .box h2 {
-  color: #dd5555;
+  color: var(--default-page-color);
   font-size: 0.875em;
 }
 .box p {
@@ -121,7 +121,7 @@ input[type=text]:focus {
   padding: 10px 0;
 }
 .calendar [class*=icon-] {
-  color: #dd5555;
+  color: var(--default-page-color);
   position: relative;
   top: 2px;
   margin: 0 5px;
@@ -129,7 +129,7 @@ input[type=text]:focus {
   cursor: pointer;
 }
 .calendar .days {
-  background: #dd5555;
+  background: var(--default-page-color);
   padding: 20px;
   border-radius: 0 0 5px 5px;
 }
@@ -166,7 +166,7 @@ input[type=text]:focus {
   font-size: 0.75em;
 }
 .nav a:hover {
-  color: #dd5555;
+  color: var(--default-page-color);
 }
 .nav [class*=icon-] {
   font-size: 2em;
