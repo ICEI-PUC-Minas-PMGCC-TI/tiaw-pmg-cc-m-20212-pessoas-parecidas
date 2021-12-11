@@ -5,7 +5,7 @@
 ## Divisão de Papéis
 
 - **Marcus Prado Silva**: Mestre SCRUM e desenvolvedor,deve orgarniza a equipe,horários,reuniões,as tarefas,fazer backlogs dos Sprints e auxilia todos os da equipe que possuirem dúvidas ou dificuldades durante o projeto seja na parte visual,organização de backlogs do produto ou na parte de avaliação de funcionalidades a serem implementadas.
-- **Felipe Augusta Morais Silva**: Analista de UI/UX e desenvolvedor,deve recolher os pedidos dos usertests e propor  tecnologias e ferramentas que possibilitem criar o que os usuários desejaam,atualização de wireframe e layouts quando necessário,criação da identidade visual da aplicação utilizando editores de imagem,e realizar testes de responsividade da aplicação;
+- **Felipe Augusto Morais Silva**: Analista de UI/UX e desenvolvedor,deve recolher os pedidos dos usertests e propor  tecnologias e ferramentas que possibilitem criar o que os usuários desejaam,atualização de wireframe e layouts quando necessário,criação da identidade visual da aplicação utilizando editores de imagem,e realizar testes de responsividade da aplicação;
 - **Felipe Augusto Maciel Constantino**: Analista de Implementação e desenvolvedor,deve apresentar e organizar as ideias geradas nos "brainstorms" compara-las,avaliar os pontos positivos e negativos de implementa-las.Além de mostrar limitações técnicas e práticas de uma funcionalidade utilizando o um de filtaragem de uma semana para todas as funcionalidades da aplicação.
 - <s>**Gabriel Da Silva Martins**: Dono do Produto e desenvolvedor,deve propor uma lista de testes e funcionalidades a serem feitas durante o projeto,deve também organizar usertests, recolher o feeback dos usuários,estruturar user visions/storys e fazer os backlogs do produto </s> 
 
@@ -21,6 +21,84 @@ Depois desse processo,o Mestre SCRUM vai recolher todos essas informações apre
 durante as reuniões, ele atualizará os quadros de tarefas,irá auxiliar nas tarefas que não alcançaram o rendimento proposto pelo cronograma e vai dividir as tarefas dos próximos Sprints em módulos de obrigações de cada membro na próxima fase,tanto em suas tarefas dentro da metodologia SCRUM quanto suas tarefas como desenvolvedores.
 
 Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
+
+##Atribuições
+
+- **Felipe Augusto Maciel Constantino**:
+
+- Sprint 1:
+-   -Fluxo de usuário(1/3)
+-   -Wireframes(1/3)
+-   -Documentação-Personas
+-   -Documentação-Requisitos
+-   -Documentação-Restrições
+-   -Artefatos de Design Thinking(1/3)
+
+- Sprint 2:
+-   -Funcionalidade de Login do sistema
+
+- Sprint 3: 
+-   -Sistema de informar clima consumindo Api
+
+- Sprint 4:
+-   -Funcionalidade de calendário
+-   -Página de perfil do usuário(1/3)
+-   -Navegação entre as páginas
+-   -Integração de funcionalidade(1/3)
+-   -Revisão de código (6 sessões) 
+
+
+- **Felipe Augusto Morais Silva**:
+
+- Sprint 1:
+-   -Fluxo de usuário(2/3)
+-   -Wireframes(2/3)
+-   -Artefatos de Design Thinking(2/3)
+
+- Sprint 2:
+-   -Templates das telas
+
+- Sprint 3:
+-   -Criando
+
+- Sprint 4: 
+-   -Documentação-Público alvo
+-   -Identidade Visual
+-   -Home page
+-   -Página de perfil do usuário(2/3)
+-   -Página de grupos
+-   -Página de Login
+-   -Integração de funcionalidade(2/3)
+-   -Revisão de código (4 sessões) 
+
+
+- **Marcus Prado Silva**:
+
+- Sprint 1: 
+-   -Documentação-Gerenciamento do Projeto
+-   -Documentação-
+-   -Fluxo de usuário(3/3)
+-   -Wireframes(3/3)
+-   -Artefatos de Design Thinking(3/3)
+
+- Sprint 2: 
+-   -Sistema de cadastro de Pessoas
+
+- Sprint 3:
+-   -Sistema de mapas consumindo Api
+
+- Sprint 4: 
+-  -Documentação-Problema
+-  -Documentação-Processos
+-  -Documentação-Atribuições
+-  -Documentação-Ferramentas
+-  -Apresentação de informações de usuários
+-  -Caixas de postagem e Comentário
+-  -Apresentação de informação de usuários aleatórios via Api
+-  -Funcinalidade de Chat
+-  -Página de perfil do usuário(2/3)
+-  -Integração de funcionalidade(3/3)
+-  -Revisão de código (4 sessões) 
 
 ## Ferramentas
 
