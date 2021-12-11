@@ -8,7 +8,6 @@
     <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/grid.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
     <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/icomoon-scrtpxls.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="./assets/css/userProfile.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -16,7 +15,7 @@
 
 </head>
 
-<body onLoad="init(), colorMBTI()" style="padding-top: 0;">
+<body onLoad="init()" style="padding-top: 0;">
     <div id="header">
         <div class="container-fluid">
             <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
@@ -42,7 +41,7 @@
                                 <a class="nav-link btn-dark" href="#">Destaques</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn-dark" href="#">Calendario</a>
+                                <a class="nav-link btn-dark" href="#">Calendário</a>
                             </li>
                         </ul>
                         <form class="d-flex">
@@ -178,18 +177,6 @@
                             <h2>Saturday 16 January</h2>
                         </article>
                     </section>
-
-                    <section class="box widget weather" style="margin-top:1.2rem">
-                        <header class="header">
-                            <div class="temp">
-                                <p id="mbti">INTP</p> <span class="fa fa-cogs"></span>
-                            </div>
-                            <span class="icon-partlycloudy"></span>
-                        </header>
-                        <article>
-                            <h2>Sua personalidade MBTI</h2>
-                        </article>
-                    </section>
                 </div>
                 <div class="col_2of3">
                     <article class="box post" style="margin-top:1.2rem">
@@ -203,44 +190,41 @@
                     </article>
                 </div>
                 <div class="col_2of3">
+                    <!--<section class="box widget audio">
+                        <div class="image">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/scrtpxls_audio.png" />
+                        </div>
+                        <div class="details-c">
+                            <h2 class="album">Geef mij maar Amsterdam</h2>
+                            <p class="artist">Johnny Jordaan</p>
+                            <div class="player">
+                                <div class="bar">
+                                    <div class="progress" data-time="1:45"></div>
+                                </div>
+                                <div class="actions">
+                                    <a href="#" class="btn"><span class="icon-arrow-left"></span></a>
+                                    <a href="#" class="btn btn-primary"><span class="icon-pause"></span></a>
+                                    <a href="#" class="btn"><span class="icon-arrow-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>-->
                 </div>
                 <div class="col_1of3">
+                    <!--<section class="box widget find">
+                        <input type="text" name="find" placeholder="Find your city place" />
+                        <label for="favorite" class="checkbox">
+                            <input type="checkbox" id="favorite" name="favorite" />
+                            Add to favorites
+                        </label>
+                        <a href="#" class="btn btn-primary btn-large btn-block">Search</a>
+                    </section>-->
                 </div>
             </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>
-        var r = document.querySelector(':root');
-        var rs = getComputedStyle(r);
-        var analysts = rs.getPropertyValue('--analysts_color');
-        var diplomats = rs.getPropertyValue('--diplomats_color');
-        var sentinels = rs.getPropertyValue('--sentinels_color');
-        var explorers = rs.getPropertyValue('--explorers_color');
-        const mbti = document.getElementById("mbti");
-        const texto = mbti.innerText; 
-
-        function colorMBTI() {
-            if (texto == 'INTJ' || texto == 'INTP' || texto == 'ENTJ' || texto == 'ENTP') {
-                r.style.setProperty('--default-page-color', `${analysts}`);
-            }
-            else if(texto == 'INFJ' || texto == 'INFP' || texto == 'ENFJ' || texto == 'ENFP')
-            {
-                r.style.setProperty('--default-page-color', `${diplomats}`);
-            }
-            else if (texto == 'ISTJ' || texto == 'ISFJ' || texto == 'ESTJ' || texto == 'ESFJ')
-            {
-                r.style.setProperty('--default-page-color', `${sentinels}`);
-            }
-            else if (texto == 'ISTP' || texto == 'ISFP' || texto == 'ESTP' || texto == 'ESFP')
-            {
-                r.style.setProperty('--default-page-color', `${sentinels}`);
-            }
-        }
-    </script>
-    <script>
-
-
         function init() {
             $.ajax({
                 url: 'https://randomuser.me/api/?results=1&nat=br&exc=login',
@@ -262,7 +246,6 @@
             });
 
         }
-
     </script>
     <!-- partial -->
     <!--script da navbar!-->
