@@ -14,13 +14,8 @@ foi utilizado para hospedagem do repositório `upstream`.
 O projeto segue a seguinte convenção para o nome de branchs:
 
 - `master`: versão estável já testada do software
-- `gh-pages` : versão que está sendo hospedada
-- `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
 - `develop`: versão de desenvolvimento do software
-- `release`: prepara o projeto para uma nova versão em produção
-- `hotfixes`: versão com algum erro com necessidade de correção imediata
-- `feature`: versão com nova funcionalidade de um release bem mais no futuro
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
