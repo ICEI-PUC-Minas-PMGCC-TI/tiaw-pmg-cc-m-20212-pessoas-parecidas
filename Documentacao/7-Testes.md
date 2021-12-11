@@ -28,9 +28,9 @@ Critérios de Êxito | Após o cadastro a homepage deve carregar.
 Caso de teste | *CT-03 -> cadastro de Eventos*
 --------- | ------
 Requisitos| R-01 -> O site deve ser capaz de realizar realizar o cadastro de um novo evento;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro.
-Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
-Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
-Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro estão funcionando, para garantir que as funções de eventos do site possam ser utilizadas.
+Passos | 1º Acessar a aba de grupos e dentro dela a de eventos <br /> 2º  <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Depois do registro um novo evento deve aparecer na lista de eventos.
 
 Caso de teste | *CT-04 -> login e cadastro*
 --------- | ------
