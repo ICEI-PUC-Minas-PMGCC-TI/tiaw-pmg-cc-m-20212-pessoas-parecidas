@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Contacts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Custom-Background.css"> 
+    <link rel='stylesheet'href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+</head>
+
+<body onLoad="init()">
+    <!-- <div class="background"></div> 
+    <div class="background bg2"></div>
+    <div class="background bg3"></div> -->
+
+    <div id="header">
+        <div class="container-fluid">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Contatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Calendário</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    <div class="instagram-card-user" style="margin-top:2rem">
+        <!--Nome <input type="text" id="inputNome"> <br>-->
+             <p style="margin: 2rem;">   Post:</p> <input style="margin: 2rem;" type="file" id="inputImage"> <button style="margin: 0.5rem;"id="btnUpload">Upload</button>
+        <div id="tela"></div>
+    
+        <button style="display:none" id="btnMostrarFotos"> Mostrar Fotos</button>
+        <div class="container">
+          <div id="album" class="row"></div>
+        </div>
+      </div>
+      <div class="instagram-card-user">
+        <div class="instagram-card-header-user">
+          <img style="border-radius:200rem;"src="https://img.icons8.com/material-outlined/50/000000/user--v1.png"/>
+          <p class="instagram-card-user-name-user" >  Sua Postagem</p>
+        </div>
+        <div class="instagram-card-image-user" id="instagram-card-image-user">
+          
+        </div>
+        <div class="instagram-card-content-user">
+          <a class="instagram-card-icon" href="#"><i class="fa fa-heart-o"></i></a>
+          <a class="instagram-card-icon" href="#"><i class="fa fa-comment-o"></i></a>
+          
+        </div>
+    <div class="instagram-card">
+        <div class="instagram-card-header">
+        <img class="instagram-card-user-image"
+          src="https://pbs.twimg.com/profile_images/564682290303729665/Nl1tsx2v_400x400.jpeg">
+        <a class="instagram-card-user-name" href="https://twitter.com/adhamdannaway">AdhamDannaway</a>
+      </div>
+      <div class="instagram-card-image">
+        <img src="https://source.unsplash.com/random">
+      </div>
+      <div class="instagram-card-content">
+        <a class="instagram-card-icon" href="#"><i class="fa fa-heart-o"></i></a>
+        <a class="instagram-card-icon" href="#"><i class="fa fa-comment-o"></i></a>
+        <a class="instagram-card-icon instagram-bookmark" href="#"><i class="fa fa-bookmark-o"></i></a>
+        
+        <p><a class="user-comments" href="https://twitter.com/mizko">mizco</a> great! 👍👍👍</p>
+        <hr>
+      </div>
+  
+      <div class="instagram-card-footer">
+        <input id="input-comment" class="instagram-card-input" type="text" placeholder="Agrega un comentario...">
+        <button id="btnComment" style="background-color:black;color:white;">
+          <!--<a class="instagram-card-icon ellipsis" href="#"><i class="fa fa-ellipsis-h"></i></a>-->>
+        </button>
+      </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        function uploadImage () {
+            let arquivo_path = document.getElementById ('inputImage').files[0];
+            let fr = new FileReader ();
+
+            fr.onloadend = function () {
+                document.getElementById ('instagram-card-image-user').innerHTML = `<img src="${fr.result}">`
+                
+                let album = JSON.parse (localStorage.getItem ('album'));
+                if (!album) {
+                    album = []
+                }
+                let nome = document.getElementById ('inputNome').value
+                let img = fr.result
+                
+                let foto = { "nome": nome, "img": img }
+                album.push (foto);
+
+                localStorage.setItem ('album', JSON.stringify (album));
+            }
+
+            fr.readAsDataURL (arquivo_path); 
+        }
+
+        document.getElementById('btnUpload').onclick = uploadImage;
+
+
+        function mostrarFotos () {
+            let album = document.getElementById ('album');
+
+            let albumDB = JSON.parse (localStorage.getItem ('album'));
+            let htmlAlbum = ''
+            for (i = 0; i < albumDB.length; i++) {
+                htmlAlbum += `<div style="border-bottom: solid 1px black">
+                            <a href="detalhes.html?id=${i}">${albumDB[i].nome}</a></div>`
+            }
+            album.innerHTML = htmlAlbum
+        }
+
+        document.getElementById('btnMostrarFotos').onclick = mostrarFotos;
+    </script>
+    <script>
+
+        function init() {
+            $("#btnComment").click(function () {
+              
+              $('.instagram-card-content').append(`<p><b>Matheus</b> ${$('#input-comment').val()}</p>
+            <p>`);
+              let input =$('#input-comment').val();
+              console.log(input);
+               $('#input-comment').attr('value', ' ');
+            });
+            $.ajax({
+                url: 'https://randomuser.me/api/?results=50&nat=br&exc=login',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    var dados = data;
+                    for (i = 0; i < 50; i++) {
+                        console.log(data.results[i].name.first);
+                        console.log(data.results[i].name.last);
+                        console.log(data.results[i].gender);
+                        console.log(data.results[i].email);
+                    };
+
+                    for (i = 0; i < 30; i++) {
+                        if (i % 30 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 10);
+                            var image_url = `https://source.unsplash.com/collection/9415206/${getRandomNum()}`
+                        } else if (i % 29 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/542659/${getRandomNum()}`
+
+                        } else if (i % 28 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 27 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+
+                        } else if (i % 26 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 25 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/170835/${getRandomNum()}`
+                        } else if (i % 24 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/3582659/${getRandomNum()}`
+                        } else if (i % 23 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/16494232/${getRandomNum()}`
+                        } else if (i % 22 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/538269/${getRandomNum()}`
+
+                        } else if (i % 21 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/14643942/${getRandomNum()}`
+                        } else if (i % 20 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/582609/${getRandomNum()}`
+
+                        } else if (i % 19 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/11349432/${getRandomNum()}`
+                        } else if (i % 18 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/582659/${getRandomNum()}`
+
+                        } else if (i % 17 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/11649432/${getRandomNum()}`
+                        } else if (i % 16 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/370835/${getRandomNum()}`
+                        } else if (i % 15 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/582659/${getRandomNum()}`
+                        } else if (i % 14 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/11649432/${getRandomNum()}`
+                        } else if (i % 13 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/582659/${getRandomNum()}`
+
+                        } else if (i % 12 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/11649432/${getRandomNum()}`
+                        } else if (i % 11 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/370835/${getRandomNum()}`
+                        } else if (i % 10 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/582659/${getRandomNum()}`
+                        } else if (i % 9 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 8 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+
+                        } else if (i % 7 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 6 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 5 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 4 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 3 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection//${getRandomNum()}`
+                        } else if (i % 2 == 0) {
+                            let getRandomNum = () => Math.floor(Math.random() * 60);
+                            var image_url = `https://source.unsplash.com/collection/582659/${getRandomNum()}`
+                        } else {
+                            let getRandomNum = () => Math.floor(Math.random() * 50);
+                            var image_url = `https://source.unsplash.com/collection/dNwRSnt-Umg/${getRandomNum()}`
+                        }
+                        $(".instagram-card").append(`<div class="instagram-card-header">
+            <img class="instagram-card-user-image"
+          src="${dados.results[i].picture.thumbnail}">
+          ${dados.results[i].name.first} ${dados.results[i].name.last}
+          </div>
+          <div class="instagram-card-image">
+            <img src="${image_url}">
+          </div>
+          <div class="instagram-card-content-${i}" id="${i}">
+            <a class="instagram-card-icon" href="#"><i class="fa fa-heart-o"></i></a>
+            <a class="instagram-card-icon" href="#"><i class="fa fa-comment-o"></i></a>
+            <a class="instagram-card-icon instagram-bookmark" href="#"><i class="fa fa-bookmark-o"></i></a>
+            
+            <p><a class="comments"><b>Comentarios</a></p>
+            <p>mizco great! 👍👍👍</p>
+            <hr>
+          </div>
+  
+          <div class="instagram-card-footer">
+            <input id="input-comment-${i+1}" class="instagram-card-input" type="text" placeholder="Digite um comentário">
+            <button id="btnComment-${i+1}"  style="background-color:black;color:white;">
+              <!--<a class="instagram-card-icon ellipsis" href="#"><i class="fa fa-ellipsis-h"></i></a>-->>
+            </button>
+          </div>`);
+                    };
+
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>
+```
