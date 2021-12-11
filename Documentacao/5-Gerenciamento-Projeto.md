@@ -48,8 +48,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 #### Sprint 4:
 -   Documentação-Slide de Apresentação
 -   Documentação-Referência
--   Documentação-
--   Documentação-
+-   Documentação-Arquitetura
 -   Funcionalidade de calendário
 -   Página de perfil do usuário(1/3)
 -   Navegação entre as páginas
