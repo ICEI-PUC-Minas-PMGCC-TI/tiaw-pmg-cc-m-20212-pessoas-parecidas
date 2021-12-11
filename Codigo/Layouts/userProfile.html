@@ -12,43 +12,44 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Footer.css">
+
 </head>
 
-<body style="padding-top: 0;">
+<body onLoad="init()" style="padding-top: 0;">
     <div id="header">
-        <div class="container-fluid"">
+        <div class="container-fluid">
             <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Logo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link btn-dark" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-dark" href="#">Perfil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-dark" href="#">Contatos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-dark" href="#">Destaques</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-dark" href="#">Calendário</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-dark" type="submit">Search</button>
-                    </form>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Logo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="#">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="#">Contatos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="#">Destaques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="#">Calendário</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-dark" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
             </nav>
         </div>
     </div>
@@ -57,12 +58,9 @@
         <div class="grid_4">
             <section class="box widget locations">
                 <div class="avatar">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/scrtpxls_location.png" />
                 </div>
                 <div class="details">
-                    <h2>De Westerkerk</h2>
-                    <p>Prinsengracht 281</p>
-                    <a href="#" class="btn btn-primary btn-block btn-large">view on maps</a>
+
                 </div>
             </section>
             <section class="box widget calendar">
@@ -160,10 +158,17 @@
             </nav>
             <div class="inner_container">
                 <div class="col_1of3">
-                    <section class="box widget video">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/scrtpxls_video.png" alt="" />
+
+                    <section class="box widget find" style="margin-top:1.2rem">
+                        <input type="text" name="find" placeholder="Find your city place" />
+                        <label for="favorite" class="checkbox">
+                            <input type="checkbox" id="favorite" name="favorite" />
+                            Add to favorites
+                        </label>
+                        <a href="#" class="btn btn-primary btn-large btn-block">Search</a>
                     </section>
-                    <section class="box widget weather">
+
+                    <section class="box widget weather" style="margin-top:1.2rem">
                         <header class="header">
                             <div class="temp">10&#176; <span class="icon-brightness-half"></span></div>
                             <span class="icon-partlycloudy"></span>
@@ -174,24 +179,22 @@
                     </section>
                 </div>
                 <div class="col_2of3">
-                    <article class="box post">
+                    <article class="box post" style="margin-top:1.2rem">
                         <div class="image">
                             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/scrtpxls_post.png" />
                         </div>
                         <div class="details">
                             <h2>Amsterdan</h2>
-                            <p>Amsterdam is the capital city of and the most populous within the Kingdom of the
-                                Netherlands. Amsterdam's name derives from Amstelredamme. Amsterdam is located in the
-                                western... Netherlands</p>
+                            <p>Oi galera sou novo por aqui,gostaria de encontrar algumas novas amizades </p>
                         </div>
                     </article>
                 </div>
                 <div class="col_2of3">
-                    <section class="box widget audio">
+                    <!--<section class="box widget audio">
                         <div class="image">
                             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/scrtpxls_audio.png" />
                         </div>
-                        <div class="details">
+                        <div class="details-c">
                             <h2 class="album">Geef mij maar Amsterdam</h2>
                             <p class="artist">Johnny Jordaan</p>
                             <div class="player">
@@ -205,21 +208,45 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section>-->
                 </div>
                 <div class="col_1of3">
-                    <section class="box widget find">
+                    <!--<section class="box widget find">
                         <input type="text" name="find" placeholder="Find your city place" />
                         <label for="favorite" class="checkbox">
                             <input type="checkbox" id="favorite" name="favorite" />
                             Add to favorites
                         </label>
                         <a href="#" class="btn btn-primary btn-large btn-block">Search</a>
-                    </section>
+                    </section>-->
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        function init() {
+            $.ajax({
+                url: 'https://randomuser.me/api/?results=1&nat=br&exc=login',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    var dados = data;
+                    console.log(data.results[0].name.first);
+                    console.log(data.results[0].name.last);
+                    console.log(data.results[0].picture.large);
+                    console.log(data.results[0].email);
+                    $('.avatar').append(`<img src="${data.results[0].picture.large}" />`);
+                    $('.details').append(`<h2>${data.results[0].name.first} ${data.results[0].name.last}</h2>
+                    <p>${data.results[0].email}</p>
+                    <h2>${data.results[0].cell}</h2>`);
+                    $('.box widget video').append(`<img src="${data.results[0].picture.thumbnail}" alt="" />`)
+
+                }
+            });
+
+        }
+    </script>
     <!-- partial -->
     <!--script da navbar!-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
