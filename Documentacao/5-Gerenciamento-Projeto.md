@@ -20,7 +20,7 @@ O Dono do Produto vai coletar dados sobre os usuários e apontar uma direção p
 Depois desse processo,o Mestre SCRUM vai recolher todos essas informações apresentar um resumo das entregas de cada membro da equipe 
 durante as reuniões, ele atualizará os quadros de tarefas,irá auxiliar nas tarefas que não alcançaram o rendimento proposto pelo cronograma e vai dividir as tarefas dos próximos Sprints em módulos de obrigações de cada membro na próxima fase,tanto em suas tarefas dentro da metodologia SCRUM quanto suas tarefas como desenvolvedores.
 
-Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Knaban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
+Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
 
 ## Ferramentas
 
