@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/Footer.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+
 
 </head>
 
@@ -16,7 +19,7 @@
         <div class="container">
 
             <div id="login-row" class="row justify-content-center align-items-center">
-                <div id="login-column" class="col-md-6">
+                <div id="login-column" class="col-md-6 border" style="margin-top: 3rem;">
                     <div id="login-box" class="col-md-12">
 
                         <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
@@ -69,21 +72,43 @@
                 </div>
             </div>
         </div>
-
-        <style>
-            #loginExistente {
-                margin-top: 1%;
-                margin-bottom: 2%;
-            }
-
-            #teste {
-                font-size: smaller;
-            }
-        </style>
-
     </div>
-
-
+    <footer class="footer-clean" style="margin-top: 6.6rem;background-color: var(--default_color075);max-height: fit-content;padding: 1rem;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Careers</h3>
+                    <ul>
+                        <li><a href="#">Job openings</a></li>
+                        <li><a href="#">Employee success</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                            class="icon ion-social-twitter"></i></a><a href="#"><i
+                            class="icon ion-social-snapchat"></i></a><a href="#"><i
+                            class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Company Name © 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/login.js"></script>
     <script>
@@ -226,7 +251,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
