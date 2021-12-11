@@ -22,83 +22,83 @@ durante as reuniões, ele atualizará os quadros de tarefas,irá auxiliar nas ta
 
 Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
 
-##Atribuições
+## Atribuições
 
-- **Felipe Augusto Maciel Constantino**:
+### **Felipe Augusto Maciel Constantino**:
 
-- Sprint 1:
--   -Fluxo de usuário(1/3)
--   -Wireframes(1/3)
--   -Documentação-Personas
--   -Documentação-Requisitos
--   -Documentação-Restrições
--   -Artefatos de Design Thinking(1/3)
+#### Sprint 1:
+-   Fluxo de usuário(1/3)
+-   Wireframes(1/3)
+-   Documentação-Personas
+-   Documentação-Requisitos
+-   Documentação-Restrições
+-   Artefatos de Design Thinking(1/3)
 
-- Sprint 2:
--   -Funcionalidade de Login do sistema
+#### Sprint 2:
+-   Funcionalidade de Login do sistema
 
-- Sprint 3: 
--   -Sistema de informar clima consumindo Api
+#### Sprint 3: 
+-   Sistema de informar clima consumindo Api
 
-- Sprint 4:
--   -Funcionalidade de calendário
--   -Página de perfil do usuário(1/3)
--   -Navegação entre as páginas
--   -Integração de funcionalidade(1/3)
--   -Revisão de código (6 sessões) 
-
-
-- **Felipe Augusto Morais Silva**:
-
-- Sprint 1:
--   -Fluxo de usuário(2/3)
--   -Wireframes(2/3)
--   -Artefatos de Design Thinking(2/3)
-
-- Sprint 2:
--   -Templates das telas
-
-- Sprint 3:
--   -Criando
-
-- Sprint 4: 
--   -Documentação-Público alvo
--   -Identidade Visual
--   -Home page
--   -Página de perfil do usuário(2/3)
--   -Página de grupos
--   -Página de Login
--   -Integração de funcionalidade(2/3)
--   -Revisão de código (4 sessões) 
+#### Sprint 4:
+-   Funcionalidade de calendário
+-   Página de perfil do usuário(1/3)
+-   Navegação entre as páginas
+-   Integração de funcionalidade(1/3)
+-   Revisão de código (6 sessões) 
 
 
-- **Marcus Prado Silva**:
+### **Felipe Augusto Morais Silva**:
 
-- Sprint 1: 
--   -Documentação-Gerenciamento do Projeto
--   -Documentação-
--   -Fluxo de usuário(3/3)
--   -Wireframes(3/3)
--   -Artefatos de Design Thinking(3/3)
+#### Sprint 1:
+-   Fluxo de usuário(2/3)
+-   Wireframes(2/3)
+-   Artefatos de Design Thinking(2/3)
 
-- Sprint 2: 
--   -Sistema de cadastro de Pessoas
+#### Sprint 2:
+-   Templates das telas
 
-- Sprint 3:
--   -Sistema de mapas consumindo Api
+#### Sprint 3:
+-   Criando
 
-- Sprint 4: 
--  -Documentação-Problema
--  -Documentação-Processos
--  -Documentação-Atribuições
--  -Documentação-Ferramentas
--  -Apresentação de informações de usuários
--  -Caixas de postagem e Comentário
--  -Apresentação de informação de usuários aleatórios via Api
--  -Funcinalidade de Chat
--  -Página de perfil do usuário(2/3)
--  -Integração de funcionalidade(3/3)
--  -Revisão de código (4 sessões) 
+#### Sprint 4: 
+-   Documentação-Público alvo
+-   Identidade Visual
+-   Home page
+-   Página de perfil do usuário(2/3)
+-   Página de grupos
+-   Página de Login
+-   Integração de funcionalidade(2/3)
+-   Revisão de código (4 sessões) 
+
+
+### **Marcus Prado Silva**:
+
+#### Sprint 1: 
+-   Documentação-Gerenciamento do Projeto
+-   Documentação-
+-   Fluxo de usuário(3/3)
+-   Wireframes(3/3)
+-   Artefatos de Design Thinking(3/3)
+
+#### Sprint 2: 
+-   Sistema de cadastro de Pessoas
+
+#### Sprint 3:
+-   Sistema de mapas consumindo Api
+
+#### Sprint 4: 
+-  Documentação-Problema
+-  Documentação-Processos
+-  Documentação-Atribuições
+-  Documentação-Ferramentas
+-  Apresentação de informações de usuários
+-  Caixas de postagem e Comentário
+-  Apresentação de informação de usuários aleatórios via Api
+-  Funcinalidade de Chat
+-  Página de perfil do usuário(2/3)
+-  Integração de funcionalidade(3/3)
+-  Revisão de código (4 sessões) 
 
 ## Ferramentas
 
