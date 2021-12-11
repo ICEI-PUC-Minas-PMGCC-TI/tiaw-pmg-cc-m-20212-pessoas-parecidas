@@ -46,6 +46,10 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Plano e execução de Testes de funcionalidades
 
 #### Sprint 4:
+-   Documentação-
+-   Documentação-
+-   Documentação-
+-   Documentação-
 -   Funcionalidade de calendário
 -   Página de perfil do usuário(1/3)
 -   Navegação entre as páginas
@@ -75,6 +79,9 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 
 #### Sprint 4: 
 -   Documentação-Público alvo
+-   Documentação-Video de apresentação
+-   Documentação-
+-   Documentação-
 -   Identidade Visual
 -   Home page
 -   Página de perfil do usuário(2/3)
