@@ -1,3 +1,12 @@
+:root {
+  /*Definicao de variaveis*/
+  --default-page-color: rgba(221, 85, 85, 1);
+  --analysts_color: rgba(136, 97, 154, 1);
+  --diplomats_color: rgba(51, 164, 116, 1);
+  --sentinels_color: rgba(66, 152, 180, 1);
+  --explorers_color: rgba(216, 165, 55, 1);
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -181,7 +190,7 @@ input[type=text]:focus {
 .weather .header {
   border-radius: 5px 5px 0 0;
   padding: 20px 0;
-  background: #dd5555;
+  background: var(--default-page-color);
   text-align: center;
   color: #fff;
   font-size: 3.125em;
@@ -322,4 +331,8 @@ input[type=text]:focus {
 }
 .btn-primary:hover{
   border-color:unset !important;
+}
+
+#mbti {
+  color: #fff;
 }
