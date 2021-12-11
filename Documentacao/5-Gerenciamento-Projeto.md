@@ -33,12 +33,15 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Documentação-Requisitos
 -   Documentação-Restrições
 -   Artefatos de Design Thinking(1/3)
+-   Revisões ortográficas (3 sessões)
 
 #### Sprint 2:
 -   Funcionalidade de Login do sistema
+-   Revisões ortográficas (4 sessões)
 
 #### Sprint 3: 
 -   Sistema de informar clima consumindo Api
+-   Revisões ortográficas (3 sessões)
 
 #### Sprint 4:
 -   Funcionalidade de calendário
@@ -46,6 +49,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Navegação entre as páginas
 -   Integração de funcionalidade(1/3)
 -   Revisão de código (6 sessões) 
+-   Revisões ortográficas (4 sessões)
 
 
 ### **Felipe Augusto Morais Silva**:
@@ -54,12 +58,15 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Fluxo de usuário(2/3)
 -   Wireframes(2/3)
 -   Artefatos de Design Thinking(2/3)
+-   Revisões ortográficas (2 sessões)
 
 #### Sprint 2:
 -   Templates das telas
+-   Revisões ortográficas (5 sessões)
 
 #### Sprint 3:
--   Criando
+-   Funcionalidade de cadastro de eventos
+-   Revisões ortográficas (4 sessões)
 
 #### Sprint 4: 
 -   Documentação-Público alvo
@@ -70,6 +77,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Página de Login
 -   Integração de funcionalidade(2/3)
 -   Revisão de código (4 sessões) 
+-   Revisões ortográficas (5 sessões)
 
 
 ### **Marcus Prado Silva**:
@@ -80,12 +88,15 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Fluxo de usuário(3/3)
 -   Wireframes(3/3)
 -   Artefatos de Design Thinking(3/3)
+-   Revisões ortográficas (2 sessões)
 
 #### Sprint 2: 
 -   Sistema de cadastro de Pessoas
+-   Revisões ortográficas (2 sessões)
 
 #### Sprint 3:
 -   Sistema de mapas consumindo Api
+-   Revisões ortográficas (2 sessões)
 
 #### Sprint 4: 
 -  Documentação-Problema
@@ -98,7 +109,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -  Funcinalidade de Chat
 -  Página de perfil do usuário(2/3)
 -  Integração de funcionalidade(3/3)
--  Revisão de código (4 sessões) 
+-  Revisão de código (3 sessões) 
 
 ## Ferramentas
 
