@@ -67,6 +67,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Fluxo de usuário(2/3)
 -   Wireframes(2/3)
 -   Artefatos de Design Thinking(2/3)
+-   Documentação-Slide de Apresentação
 -   Revisões ortográficas (2 sessões)
 
 #### Sprint 2:
