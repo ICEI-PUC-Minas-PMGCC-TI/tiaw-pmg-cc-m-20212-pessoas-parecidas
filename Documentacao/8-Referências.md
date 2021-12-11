@@ -12,11 +12,3 @@ em: https://agenciabrasil.ebc.com.br/educacao/noticia/2021-10/relatorio-aponta-i
 - DESINGr. Sitemap e User Flow: Quais as Diferenças e Quando Usar Cada Um?. Disponivel em:http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/. 2018.
 - Redator Rock Content. Wireframe: quais os tipos e as principais ferramentas de criação. Disponivel em:https://rockcontent.com/br/blog/wireframes/. 2019.
 
-
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados Disponível em: https://www.16personalities.com/br/teste-de-personalidade. Acesso em 26/05/2020.
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
