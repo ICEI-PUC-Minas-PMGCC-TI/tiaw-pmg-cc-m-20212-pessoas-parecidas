@@ -11,11 +11,60 @@ Requisitos para realização do teste:
 - Conectividade de Internet para acesso às plataformas (APIs)
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
- Caso de teste | CT-01 -> login e cadastro
+Caso de teste | *CT-01 -> login e cadastro*
 --------- | ------
-Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado; R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado;<br /> R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se a função de login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de nova conta(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a uma tela para o preenchimento de novas informações vai carregar.
+
+Caso de teste | *CT-02 -> cadastro de usuário*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o cadastro de um novo usuário;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro estão funcionando,<br /> para garantir as funcionalidades de contatos do site.
+Passos | 1º Realizar o login <br /> 2º Quando a página carregar, preencha-a com informações corretas  <br /> 3º Enviei as iformações.
+Critérios de Êxito | Após o cadastro a homepage deve carregar.
+
+Caso de teste | *CT-03 -> cadastro de Eventos*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar realizar o cadastro de um novo evento;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro.
 Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
-Passos | 1º Acessar O site - 2º entrar no sistema de cadastro(pelo botão nova conta) - 3º preencher o formulário corretamente - 4º Logar com a senha e login cadastrados.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+
+Caso de teste | *CT-04 -> login e cadastro*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado;<br /> R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+
+Caso de teste | *CT-05 -> login e cadastro*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado;<br /> R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+
+Caso de teste | *CT-06 -> login e cadastro*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado;<br /> R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+
+Caso de teste | *CT-07 -> login e cadastro*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado;<br /> R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+
+Caso de teste | *CT-08 -> login e cadastro*
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado;<br /> R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site <br /> 2º entrar no sistema de cadastro(pelo botão nova conta) <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados.
 Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
 
 
