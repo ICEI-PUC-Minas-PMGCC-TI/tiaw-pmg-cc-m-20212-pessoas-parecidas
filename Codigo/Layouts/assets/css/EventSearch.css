@@ -52,31 +52,31 @@
   100% {
     transform: rotate(0deg);
     transform-origin: 50% 100%;
-    box-shadow: 0 0 20px 0px var(--neonColor035);
+    box-shadow: 0 0 20px 0px black;
   }
   10% {
     transform: rotate(1deg);
-    box-shadow: 0 0 20px 0px var(--neonColor035);
+    box-shadow: 0 0 20px 0px black;
   }
   20%,
   40%,
   60% {
     transform: rotate(-2deg);
-    box-shadow: 0 0 20px 0px var(--neonColor035);
+    box-shadow: 0 0 20px 0px black;
   }
   30%,
   50%,
   70% {
     transform: rotate(2deg);
-    box-shadow: 0 0 20px 0px var(--neonColor035);
+    box-shadow: 0 0 20px 0px black;
   }
   80% {
     transform: rotate(-1deg);
-    box-shadow: 0 0 20px 0px var(--neonColor035);
+    box-shadow: 0 0 20px 0px black;
   }
   90% {
     transform: rotate(1deg);
-    box-shadow: 0 0 20px 0px var(--neonColor035);
+    box-shadow: 0 0 20px 0px black;
   }
 }
 
@@ -121,23 +121,6 @@
 	animation: color-change 1.5s linear alternate both;
 
 }
-
-@keyframes color-change {
-  0% {
-    color: black;
-    background: initial;
-  }
-  50%
-  {
-    color: #313437;
-  }
-  100% {
-    color: white;
-    background: var(--neonColor035);
-  }
-}
-
-
 
 /* *, ::after, ::before {
   box-sizing: none;
