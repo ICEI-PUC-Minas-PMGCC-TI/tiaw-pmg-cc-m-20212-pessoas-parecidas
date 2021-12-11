@@ -4,7 +4,20 @@ O processo de realização dos testes da solução desenvolvida está documentad
 que se segue e traz os planos de testes de software e de usabilidade, na sequência, o
 registro dos testes realizados.
 
-## Plano de Testes
+## Plano de Testes: Software
+Requisitos para realização do teste:
+- Site publicado na Internet
+- Navegador da Internet - Chrome, Firefox ou Edge
+- Conectividade de Internet para acesso às plataformas (APIs)
+
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+ Caso de teste | CT-01 -> login e cadastro
+--------- | ------
+Requisitos| R-01 -> O site deve ser capaz de realizar o login de um usuário anteriormente cadastrado; R-02 -> O site também deve ser capaz de adcionar um novo cadastro.
+Objetivo do Teste | O teste busca verificar se as funções de cadastro e login estão funcionando, para garantir o acesso ao site.
+Passos | 1º Acessar O site - 2º entrar no sistema de cadastro(pelo botão nova conta) - 3º preencher o formulário corretamente - 4º Logar com a senha e login cadastrados.
+Critérios de Êxito | Após o resgitro e o login a homepage deve carregar.
+
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -14,7 +27,7 @@ registro dos testes realizados.
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
