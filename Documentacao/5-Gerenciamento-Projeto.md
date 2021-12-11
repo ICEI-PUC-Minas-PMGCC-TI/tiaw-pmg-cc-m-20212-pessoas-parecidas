@@ -38,10 +38,12 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 #### Sprint 2:
 -   Funcionalidade de Login do sistema
 -   Revisões ortográficas (4 sessões)
+-   Plano e execução de Testes de funcionalidades
 
 #### Sprint 3: 
 -   Sistema de informar clima consumindo Api
 -   Revisões ortográficas (3 sessões)
+-   Plano e execução de Testes de funcionalidades
 
 #### Sprint 4:
 -   Funcionalidade de calendário
@@ -50,6 +52,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Integração de funcionalidade(1/3)
 -   Revisão de código (6 sessões) 
 -   Revisões ortográficas (4 sessões)
+-   Plano e execução de Testes de funcionalidades(1/3)
 
 
 ### **Felipe Augusto Morais Silva**:
@@ -63,10 +66,12 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 #### Sprint 2:
 -   Templates das telas
 -   Revisões ortográficas (5 sessões)
+-   Plano e execução de Testes de funcionalidades
 
 #### Sprint 3:
 -   Funcionalidade de cadastro de eventos
 -   Revisões ortográficas (4 sessões)
+-   Plano e execução de Testes de funcionalidades
 
 #### Sprint 4: 
 -   Documentação-Público alvo
@@ -78,6 +83,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Integração de funcionalidade(2/3)
 -   Revisão de código (4 sessões) 
 -   Revisões ortográficas (5 sessões)
+-   Plano e execução de Testes de funcionalidades(2/3)
 
 
 ### **Marcus Prado Silva**:
@@ -93,10 +99,12 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 #### Sprint 2: 
 -   Sistema de cadastro de Pessoas
 -   Revisões ortográficas (2 sessões)
+-   Plano e execução de Testes de funcionalidades
 
 #### Sprint 3:
 -   Sistema de mapas consumindo Api
 -   Revisões ortográficas (2 sessões)
+-   Plano e execução de Testes de funcionalidades
 
 #### Sprint 4: 
 -  Documentação-Problema
@@ -110,6 +118,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -  Página de perfil do usuário(2/3)
 -  Integração de funcionalidade(3/3)
 -  Revisão de código (3 sessões) 
+-  Plano e execução de Testes de funcionalidades(3/3)
 
 ## Ferramentas
 
