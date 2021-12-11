@@ -1,11 +1,8 @@
 # Avaliação da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="6-Implementação.md"> Projeto da Solução</a></span>
-
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+O processo de realização dos testes da solução desenvolvida está documentado na seção
+que se segue e traz os planos de testes de software e de usabilidade, na sequência, o
+registro dos testes realizados.
 
 ## Plano de Testes
 
