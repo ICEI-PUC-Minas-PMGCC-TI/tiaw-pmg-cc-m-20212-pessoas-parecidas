@@ -46,7 +46,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Plano e execução de Testes de funcionalidades
 
 #### Sprint 4:
--   Documentação-
+-   Documentação-Slide de Apresentação
 -   Documentação-
 -   Documentação-
 -   Documentação-
@@ -57,6 +57,8 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -   Revisão de código (6 sessões) 
 -   Revisões ortográficas (4 sessões)
 -   Plano e execução de Testes de funcionalidades(1/3)
+-   Formulário de teste de usabilidade
+-   Coleta de resultados do teste de usabilidade
 
 
 ### **Felipe Augusto Morais Silva**:
