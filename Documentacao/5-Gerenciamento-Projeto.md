@@ -124,7 +124,6 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 -  Apresentação de informações de usuários
 -  Caixas de postagem e Comentário
 -  Apresentação de informação de usuários aleatórios via Api
--  Funcinalidade de Chat
 -  Página de perfil do usuário(2/3)
 -  Integração de funcionalidade(3/3)
 -  Revisão de código (3 sessões) 
