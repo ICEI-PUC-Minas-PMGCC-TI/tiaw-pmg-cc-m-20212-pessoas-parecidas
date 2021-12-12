@@ -27,17 +27,17 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-| Caso de teste      | *CT-03 -> cadastro de Eventos*                                                                                                                                  |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos         | R-01 -> O site deve ser capaz de realizar realizar o cadastro de um novo evento;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro.            |
-| Objetivo do Teste  | O teste busca verificar se as funções de cadastro estão funcionando, para garantir que as funções de eventos do site possam ser utilizadas.                     |
+| Caso de teste      | *CT-03 -> cadastro de Eventos*                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Requisitos         | R-01 -> O site deve ser capaz de realizar realizar o cadastro de um novo evento;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro.|
+| Objetivo do Teste  | O teste busca verificar se as funções de cadastro estão funcionando, para garantir que as funções de eventos do site possam ser utilizadas. |
 | Passos             | 1º Acessar a aba de grupos e dentro dela a de eventos <br /> 2º  <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados. |
-| Critérios de Êxito | Depois do registro um novo evento deve aparecer na lista de eventos.                                                                                            |
+| Critérios de Êxito | Depois do registro um novo evento deve aparecer na lista de eventos.                                              |
 
 
 
-| Caso de teste      | *CT-04 -> Api para previsão do tempo*                                                                                                                                          |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Caso de teste      | *CT-04 -> Api para previsão do tempo*                                                                             |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O site deve ser capaz de mostrar a previsão do tempo de uma cidade, usando somente seu nome;              |
 | Objetivo do Teste  | O teste busca verificar se as funções de previsão do tempo pela API openWheatherMap funcionam.                    |
 | Passos             | 1º Acessar a aba de grupos e dentro dela a de eventos <br /> 2º Entrar com o nome da cidade desejada              |
@@ -48,59 +48,48 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 | Caso de teste      | *CT-05 -> Api para o tempo atual*                                                                                                                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------ | -------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O site deve ser capaz de mostrar o clima atual utilizando a Geolocalização do computador.              |
 | Objetivo do Teste  | O teste busca verificar se as funções de exibição do clima pela API openWheatherMap funcionam.                 |
 | Passos             | 1º Acessar a aba de perfil do usuário <br /> 2º Conceder ao site acesso à geolocalização                       |
 | Critérios de Êxito | Com isso o clima atual será exibido.                                                                           |
 
-
-
-| Caso de teste      | *CT-06 -> geolocalização*                                                                                                                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Caso de teste      | *CT-06 -> geolocalização*                                                                                        |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O site deve ser capaz de mostrar um mapa com as posições de Long. e lati. forcidas para uma api.         |
 | Objetivo do Teste  | O teste busca verificar se a função de mapa esta funcional.                                                      |
 | Passos             | 1º Acesse um perfil de usuário                                                                                   |
 | Critérios de Êxito | Ao entrar nessa pagina um mapa irá aparecer.                                                                     |
-
-
-| Caso de teste      | *CT-07 -> Calendário*                                                                                            |
+                                                                         
+| Caso de teste      | *CT-07 -> Postagem*                                                                                                                                                     |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos         | R-01 -> O site deve ser capaz de mostrar no calendário eventos cadastrados;                                      |
-| Objetivo do Teste  | O teste busca verificar se o calendário esta funcional.                                                          |
-| Passos             | 1º Acessar a aba de calendário <br />                                                                            |
-| Critérios de Êxito | Verificar se o evento esta presente.                                                                             |
-
-
-
-| Caso de teste      | *CT-08 -> Postagem*                                                                                                                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos         | R-01 -> O Usuário deve ser capaz de realizar uma postagem com uma imagem e texto.                                |
+| Requisitos         | R-01 -> O Usuário deve ser capaz de realizar uma postagem com uma imagem e texto.                                          |
 | Objetivo do Teste  | O teste busca verificar se as postagens estão funcionais, permitindo que o usuário possa interagir nos grupos do site.     |
-| Passos             | 1º Acessar a aba de grupos e nela acessar a aba de postagens<br /> 2º clicar no botão "escolher"<br /> 3º escolha uma imagems e clique em abrir <br /> 4º No post abaixo clique em comentar, escreva algo e envie o comentário. |
-| Critérios de Êxito | O comentário e a imagem devem aparecer na página.                                                                                                                             |
+| Passos             | 1º Acessar a aba de grupos e nela acessar a aba de postagens<br /> 2º clicar no botão "escolher"<br /> 3º escolha uma imagems e clique em abrir <br /> 4º No post abaixo clique em comentar, escreva algo e envie o comentário.                                                                             |
+| Critérios de Êxito | O comentário e a imagem devem aparecer na página.                                                                          |
 
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
+## Registro de Testes de Software
+Os resultados obtidos nos testes de software realizados são descritos na Tabela a seguir
+  | Testes realizados | Resultados positivos |  Resultados negativos |
+  |-------------------|----------------------|-----------------------|
+  |1º - Teste de Login  | Após a entrada de informações validadas pelos testes lógicos o usuário logou no site | Após a entrada de informações invalidadas pelos testes lógicos, não foi possivel logar no site |
+  |2º - Teste de cadastro de usuário | Após a entrada de informações validadas pelos testes lógicos a pessoa foi cadastrada no site | Após a entrada de informações invalidadas pelos testes lógicos, não foi possivel cadastra-la no site |
+  |3º - este de cadastro de Eventos | Após a entrada de informações validadas pelos testes lógicos o evento foi cadastrado no site | Após a entrada de informações invalidadas pelos testes lógicos, não foi possivel cadastra-lo no site | 
+  |4º - Teste de Api para previsão do tempo | Após a entrada do nome de uma cidade, a api devolve a previsão do tempo | Após a entrada de informações invalidas para a api, uma mensagem de erro aparece |
+  |5º - Teste de Api para o tempo atual | Ao conceder ao site o acesso a sua geolocalização o relatorio do clima atual deve aparecer| Se não for concedido acesso o resultado exibido será "desconhecido"|
+  |6º - Teste de geolocalização | O mapa exibiu corretamente a posição equivalente aos pontos de latitude e longitude | Após a entrada de informações invalidadas pela api o mapa não exibe nenhum ponto |
+  |7º - Teste de Postagem | Ao selecionar um arquivo aceito pelo sistema a foto é postada | Ao selecionar um arquivo que não é aceito pelo sistema, não haverá postagem |
 
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+## Plano de Testes de Usabilidade
+  O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
+- Identificação de objetivos do teste de usabilidade
+- Detalhes do público envolvido nos testes
+- Roteiro detalhado das tarefas que foram desempenhadas pelos usuários
 
+ 
 ## Avaliação
-
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
 > esses pontos nas próximas iterações. Apresente as falhas detectadas e

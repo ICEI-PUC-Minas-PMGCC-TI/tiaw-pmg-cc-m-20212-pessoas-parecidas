@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de eventos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init(), dataMinima()">
+    <h1>Cadastro de eventos (CRUD)</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">evento não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-evento">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-8">
+                    <label for="inputNome">Nome do evento (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required
+                        placeholder="Informe o nome do evento">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputCidade">Local</label>
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Informe a cidade do evento">
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputCategoria">Categoria do evento</label>
+                    <input type="text" class="form-control" id="inputCategoria" required
+                        placeholder="Informe a categoria do evento">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputRua">Rua(*)</label>
+                    <input type="text" class="form-control" id="inputRua" required
+                        placeholder="Informe o nome da rua">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputevento">Data (*)</label>
+                    <input type="date" class="form-control" id="inputevento" max = "2030-01-01"required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputHora">Hora (*)</label>
+                    <input type="time" class="form-control" id="inputHora" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <a href="lista_eventos.html"><input type="button" class="btn btn-warning" id="btnClear"
+                            value="Pesquisar eventos"></a>
+                    <input type="button" class="btn btn-secondary" value="Zerar local Storage"
+                        onclick="zerarLocalStorage()">
+
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-eventos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome do evento</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Rua</th>
+                            <th scope="col">Categoria do evento</th>
+                            <th scope="col">data</th>
+                            <th scope="col">hora</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-eventos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function exibeeventos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-eventos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let evento = db.data[i];
+                $("#table-eventos").append(`<tr><td scope="row">${evento.id}</td>
+                                                <td>${evento.nome}</td>
+                                                <td>${evento.cidade}</td>
+                                                <td>${evento.rua}</td>
+                                                <td>${evento.categoria}</td>
+                                                <td>${evento.data_evento}</td>
+                                                <td>${evento.hora_evento}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-evento')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoRua_evento = $('#inputRua').val();
+                let campoCategoria = $('#inputCategoria').val();
+                let campoData_evento = $('#inputevento').val();
+                let campoHora_evento = $('#inputHora').val();
+                let evento = {
+                    nome: campoNome,
+                    cidade: campoCidade,
+                    rua: campoRua_evento,
+                    categoria: campoCategoria,
+                    data_evento: campoData_evento,
+                    hora_evento: campoHora_evento
+                };
+
+                insertevento(evento);
+
+                // Reexibe os eventos
+                exibeeventos();
+
+                // Limpa o formulario
+                $("#form-evento")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um evento para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#inputNome").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoRua_evento = $('#inputRua').val();
+                let campoCategoria = $("#inputCategoria").val();
+                let campoData_evento = $('#inputevento').val();
+                let campoHora_evento = $('#inputHora').val();
+                let evento = {
+                    nome: campoNome,
+                    cidade: campoCidade,
+                    rua: campoRua_evento,
+                    categoria: campoCategoria,
+                    data_evento: campoData_evento,
+                    hora_evento: campoHora_evento
+                };
+
+                updateevento(parseInt(campoId), evento);
+
+                // Reexibe os eventos
+                exibeeventos();
+
+                // Limpa o formulario
+                $("#form-evento")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um evento a ser excluído.");
+                    return;
+                }
+                deleteevento(parseInt(campoId));
+
+                // Reexibe os eventos
+                exibeeventos();
+
+                // Limpa o formulario
+                $("#form-evento")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar eventos
+            $("#btnClear").click(function () {
+                $("#form-evento")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-eventos").on("click", "tr", function (e) {
+                let linhaevento = this;
+                colunas = linhaevento.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                $("#inputCidade").val(colunas[2].innerText);
+                $("#inputCidade").val(colunas[3].innerText);
+                $("#inputCategoria").val(colunas[4].innerText);
+                $("#inputevento").val(colunas[5].innerText);
+                $("#inputHora").val(colunas[6].innerText);
+
+            });
+
+            exibeeventos();
+        }
+    </script>
+</body>
+
+</html>

@@ -3,7 +3,7 @@ body{
   font-family: helvetica, arial, san-serif;
 }
 .instagram-card,.instagram-card-user{
-  max-width: 480px;
+  max-width: 37.5rem;
   margin: 0 auto;
   padding:0.6rem;
   border: 1px solid #ccc;
