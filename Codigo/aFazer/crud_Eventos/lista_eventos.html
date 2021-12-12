@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de eventos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="Listaeventos()">
+    <h1>Listagem de eventos</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">evento não encontrado.</div>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="msg" class="col-sm-2 offset-sm-10 ">
+                <a href="index.html"><input type="button" class="btn btn-warning" id="btnClear" value="Cadastro"></a>
+            </div>
+        </div>
+
+        <form id="form-evento">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <select name="filtro_cidade" id="filtro_cidade" onchange="Listaeventos()" class="form-control">
+                        <option value="">Selecione a Cidade</option>
+                        <option value="Betim">Betim</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Goiânia">Goiânia</option>
+                    </select>
+                </div>
+                <div class="col-sm-8">
+                    <select name="filtro_categoria" id="filtro_categoria" onchange="Listaeventos()"
+                        class="form-control">
+                        <option value="">Selecione a Categoria</option>
+                        <option value="amigos">Amigos</option>
+                        <option value="familia">Familia</option>
+                        <option value="trabalho">Trabalho</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-eventos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Site</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-eventos">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        // função para listar na tabela os eventos que estão associados aos filtros 
+        function Listaeventos() {
+
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_cidade').value;
+            let fcg = document.getElementById('filtro_categoria').value;
+
+            // limpa a lista de eventos apresentados
+            $("#table-eventos").empty();
+
+            // Popula a tabela com os registros do banco de dados
+            for (let index = 0; index < db.data.length; index++) {
+                const evento = db.data[index];
+
+                // Verifica se os dados do evento batem com os filtros
+                if (((evento.cidade == fc) || (fc == '')) &&
+                    ((evento.categoria == fcg) || (fcg == ''))) {
+
+                    // Inclui o evento na tabela    
+                    $("#table-eventos").append(`<tr><td scope="row">${evento.id}</td>
+                                                    <td>${evento.nome}</td>
+                                                    <td>${evento.cidade}</td>
+                                                    <td>${evento.categoria}</td>
+                                                    <td>${evento.rua}</td>
+                                                    <td>${evento.data_evento}</td>
+                                                    <td>${evento.hora_evento}</td>
+                                                </tr>`);
+                }
+            }
+    
+
+        }
+    </script>
+
+</body>
+
+</html>
