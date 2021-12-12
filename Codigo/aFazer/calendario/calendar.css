@@ -74,7 +74,7 @@
     }
     
     .month.new {
-      -webkit-animation: fadeIn 1s ease-out;
+      animation: fadeIn 1s ease-out;
       opacity: 1;
     }
     
