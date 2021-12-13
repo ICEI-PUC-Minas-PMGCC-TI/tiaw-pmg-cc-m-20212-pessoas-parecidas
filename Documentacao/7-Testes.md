@@ -98,12 +98,14 @@ número de usuários que testaram o sistema)
 - Relatório de problemas identificados nos testes e propostas de correções/ajustes
 
 ## Testes realizados por:
-  -Artur Silva;
-  -Guilherme de Oliveira;
-  -João Carlos;
-  -Maria Clara;
-  -Tiago Costa;
-  Observação: Cada um deles realizou dois testes, que foram sorteados aleatoriamnete.
+ 
+ - Artur Silva;
+ - Guilherme de Oliveira;
+ - João Carlos;
+ - Maria Clara;
+ - Tiago Costa;
+ 
+ Observação: Cada um deles realizou dois testes, que foram sorteados aleatoriamnete.
   
 ### interação com calendário
   Esse teste foi realizado por duas pessoas:
