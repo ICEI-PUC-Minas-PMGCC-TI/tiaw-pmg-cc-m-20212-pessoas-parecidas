@@ -8,11 +8,58 @@
     <title>Cadastro de eventos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/eventos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Contacts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Custom-Background.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 </head>
 
 <body onload="init(), dataMinima()">
-    <h1>Cadastro de eventos (CRUD)</h1>
-
+    <div id="header">
+        <div class="container-fluid"">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" aria-current="page" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="myProfile.html">Meu Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="signContacts.html">Contatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="eventResults.html">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="calendar.html">Calendario</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                        <button class="btn btn-dark" type="submit"><a href="userProfile.html"
+                                style="color: #eef4f7; text-decoration: none;">buscar</a></button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div id="msg" class="col-sm-10 offset-sm-1 ">
@@ -46,14 +93,13 @@
             <div class="form-group row">
                 <div class="col-sm-12">
                     <label for="inputRua">Rua(*)</label>
-                    <input type="text" class="form-control" id="inputRua" required
-                        placeholder="Informe o nome da rua">
+                    <input type="text" class="form-control" id="inputRua" required placeholder="Informe o nome da rua">
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-sm-12">
                     <label for="inputevento">Data (*)</label>
-                    <input type="date" class="form-control" id="inputevento" max = "2030-01-01"required>
+                    <input type="date" class="form-control" id="inputevento" max="2030-01-01" required>
                 </div>
             </div>
             <div class="form-group row">
