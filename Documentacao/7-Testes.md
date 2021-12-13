@@ -105,6 +105,14 @@ número de usuários que testaram o sistema)
 - Relatório com registro dos testes feitos: fotos, prints de telas, relatos dos usuários
 - Relatório de problemas identificados nos testes e propostas de correções/ajustes
 
+## Testes realizados por:
+  -Artur Silva;
+  -Guilherme de Oliveira;
+  -João Carlos;
+  -Maria Clara;
+  -Tiago Costa;
+  Observação: Cada um deles realizou dois testes, que foram sorteados aleatoriamnete.
+  
 ### interação com calendário
   Esse teste foi realizado por duas pessoas:
 | participantes | resultados | mudanças |
@@ -118,9 +126,9 @@ número de usuários que testaram o sistema)
 | participantes | resultados | mudanças |
 | ------------- | ---------- | -------- |
 | Artur Silva   | Conseguiu navegar sem dificuldades | Nenhuma modificação realizada |
-| Guilherme Oliveira| Conseguiu navegar sem dificuldades | Nenhuma modificação realizada |
+| Guilherme de Oliveira| Conseguiu navegar sem dificuldades | Nenhuma modificação realizada |
 - Artur Silva: "As páginas estão bem faceis de navegar "
-- Guilherme Oliveira: "Realmente não tem muito o que falar, o desing só "tá" bom mesmo"
+- Guilherme de Oliveira: "Realmente não tem muito o que falar, o desing só "tá" bom mesmo"
 
 ### Casdastro e login
   Esse teste foi realizado por duas pessoas:
@@ -135,7 +143,7 @@ número de usuários que testaram o sistema)
 | participantes | resultados | mudanças |
 | ------------- | ---------- | -------- |
 | Artur Silva   | Tentou enviar um PDF | Limitamos os tipos de arquivos |
-| Guilherme Oliveira  | Fez uma postagem corretamente | Nenhuma modificação realizada |
+| Guilherme de Oliveira  | Fez uma postagem corretamente | Nenhuma modificação realizada |
   - Artur Silva: "Eu só enviei o primeiro arquivo que eu vi, foi mau"
 
 ### Clima do dia
