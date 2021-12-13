@@ -32,29 +32,21 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos             | 1º Acessar a aba de grupos e dentro dela a de eventos <br /> 2º  <br /> 3º preencher o formulário corretamente <br /> 4º Logar com a senha e login cadastrados. |
 | Critérios de Êxito | Depois do registro um novo evento deve aparecer na lista de eventos.                                              |
 
-| Caso de teste      | *CT-04 -> Api para previsão do tempo*                                                                             |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| Requisitos         | R-01 -> O site deve ser capaz de mostrar a previsão do tempo de uma cidade, usando somente seu nome;              |
-| Objetivo do Teste  | O teste busca verificar se as funções de previsão do tempo pela API openWheatherMap funcionam.                    |
-| Passos             | 1º Acessar a aba de grupos e dentro dela a de eventos <br /> 2º Entrar com o nome da cidade desejada              |
-| Critérios de Êxito | Ao pesquisar a previsão do clima para a semana aparecerá.                                                         |
-
-
-| Caso de teste      | *CT-05 -> Api para o tempo atual*                                                                                 |
+| Caso de teste      | *CT-04 -> Api para o tempo atual*                                                                                 |
 | ------------------ | -------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O site deve ser capaz de mostrar o clima atual utilizando a Geolocalização do computador.              |
 | Objetivo do Teste  | O teste busca verificar se as funções de exibição do clima pela API openWheatherMap funcionam.                 |
 | Passos             | 1º Acessar a aba de calendário do usuário <br /> 2º Conceder ao site acesso à geolocalização                       |
 | Critérios de Êxito | Com isso o clima atual será exibido.                                                                           |
 
-| Caso de teste      | *CT-06 -> geolocalização*                                                                                        |
+| Caso de teste      | *CT-05 -> geolocalização*                                                                                        |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O site deve ser capaz de mostrar um mapa com as posições de Long. e lati. forcidas para uma api.         |
 | Objetivo do Teste  | O teste busca verificar se a função de mapa esta funcional.                                                      |
 | Passos             | 1º Acesse um perfil de usuários.                                                                                   |
 | Critérios de Êxito | Ao entrar nessa pagina um mapa irá aparecer.                                                                     |
                                                                          
-| Caso de teste      | *CT-07 -> Postagem*                                                                                                                                                     |
+| Caso de teste      | *CT-06 -> Postagem*                                                                                                                                                     |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O Usuário deve ser capaz de realizar uma postagem com uma imagem e texto.                                          |
 | Objetivo do Teste  | O teste busca verificar se as postagens estão funcionais, permitindo que o usuário possa interagir nos grupos do site.     |
@@ -120,6 +112,8 @@ número de usuários que testaram o sistema)
 | Maria Clara   | sentiu que as letras poderiam ser maiores | Por isso almentamos a fonte |
 | João Carlos   | Conseguiu navegar sem dificuldades | Nenhuma modificação realizada |
  - Maria Clara: "achei a letra do calendário muito miudinha, se meu pai quisesse usar isso aqui ele teria que dar zoom na página"
+ ![wireframe](images/teste1.PNG)
+ calendario com fonte maior.
   
 ### Navegação entre páginas
   Esse teste foi realizado por duas pessoas:
@@ -137,6 +131,8 @@ número de usuários que testaram o sistema)
 | João Carlos   | Conseguiu navegar sem dificuldades | Nenhuma modificação realizada |
 | Tiago Costa   | Não conhecia o teste de MBTI | Foi adcionado o link para o texte |
  - Tiago Costa: "Eu não conhecia o teste MBTI, fiquei até assustado com a precisão da analise deles(Se referindo à analise do teste)"
+![wireframe](images/teste2.PNG)
+Forms para login com link para fazer o teste MBTI.
 
 ### Postagem
   Esse teste foi realizado por duas pessoas:
@@ -152,4 +148,5 @@ número de usuários que testaram o sistema)
 | ------------- | ---------- | -------- |
 | Maria Clara   | Deu permisão de acesso à geolocalização, clima apresentado | Nenhuma modificação realizada |
 | Tiago Costa   | Não deu permisão de acesso à geolocalização, clima não apresentado | Nenhuma modificação realizada |
-
+![wireframe](images/teste3.PNG)
+Api de tempo após conceder permissão de acesso a geolocalização.
