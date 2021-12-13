@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Logo</a>
+                    <a class="navbar-brand" href="#">MP</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -33,24 +33,24 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link btn-dark" aria-current="page" href="#">Home</a>
+                                <a class="nav-link btn-dark" aria-current="page" href="main.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn-dark" href="#">Perfil</a>
+                                <a class="nav-link btn-dark" href="myProfile.html">Meu Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn-dark" href="#">Contatos</a>
+                                <a class="nav-link btn-dark" href="signContacts.html">Contatos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn-dark" href="#">Destaques</a>
+                                <a class="nav-link btn-dark" href="eventResults.html">Destaques</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn-dark" href="#">Calendário</a>
+                                <a class="nav-link btn-dark" href="calendar.html">Calendario</a>
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-dark" type="submit">Search</button>
+                            <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                            <button class="btn btn-dark" type="submit"><a href="userProfile.html" style="color: #eef4f7; text-decoration: none;">buscar</a></button>
                         </form>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
             <div class="instagram-card-header">
                 <img class="instagram-card-user-image"
                     src="https://pbs.twimg.com/profile_images/564682290303729665/Nl1tsx2v_400x400.jpeg">
-                <a class="instagram-card-user-name" href="https://twitter.com/adhamdannaway">AdhamDannaway</a>
+                <a class="instagram-card-user-name" href="#">AdhamDannaway</a>
             </div>
             <div class="instagram-card-image">
                 <img src="https://source.unsplash.com/random">
@@ -95,13 +95,13 @@
                 <a class="instagram-card-icon" href="#"><i class="fa fa-comment-o"></i></a>
                 <a class="instagram-card-icon instagram-bookmark" href="#"><i class="fa fa-bookmark-o"></i></a>
 
-                <p><a class="user-comments" href="https://twitter.com/mizko">mizco</a> great! 👍👍👍</p>
+                <p><a class="user-comments" href="#">mizco</a> great! 👍👍👍</p>
                 <hr>
             </div>
 
             <div class="instagram-card-footer">
                 <input id="input-comment" class="instagram-card-input" type="text"
-                    placeholder="Agrega un comentario...">
+                    placeholder="adicionar um comentário...">
                 <button id="btnComment" style="background-color:black;color:white;">
                     <!--<a class="instagram-card-icon ellipsis" href="#"><i class="fa fa-ellipsis-h"></i></a>-->>
                 </button>
@@ -155,7 +155,7 @@
         function init() {
             $("#btnComment").click(function () {
 
-                $('.instagram-card-content').append(`<p><b>Matheus</b> ${$('#input-comment').val()}</p>
+                $('.instagram-card-content').append(`<p><b>Você</b> ${$('#input-comment').val()}</p>
             <p>`);
                 let input = $('#input-comment').val();
                 console.log(input);

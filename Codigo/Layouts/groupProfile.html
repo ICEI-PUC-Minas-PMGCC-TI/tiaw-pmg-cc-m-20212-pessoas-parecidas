@@ -17,7 +17,7 @@
 
 </head>
 
-<body onLoad="init(), randomizer()" style="padding-top: 0;">
+<body onLoad="randomizer()" style="padding-top: 0;">
     <div id="header">
         <div class="container-fluid">
             <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
@@ -61,15 +61,19 @@
         <div class="grid_4">
             <section class="box widget locations">
                 <div class="avatar">
+                    <img src="https://media.istockphoto.com/photos/fuji-mountain-and-cherry-blossoms-in-spring-japan-picture-id1137578281?b=1&k=20&m=1137578281&s=170667a&w=0&h=qGuJR49oVXe1uS9BLyY7iY1orrrQZMJ7a7JM1AVC4gs="
+                        class="card-img" alt="..." style="border-radius: 0.3rem;">
                 </div>
                 <div class="details">
-
+                    <h5>Japan lovers</h6>
+                        somos o maior grupo de cultura japonesa do site, junte-se a nós e venha fazer parte desse grande
+                        grupo!
                 </div>
             </section>
             <section class="box widget calendar">
                 <header class="header">
-                    <h2>Saturday</h2>
-                    <p><span class="icon-arrow-left"></span>January<span class="icon-arrow-right"></span></p>
+                    <h2>Sábado</h2>
+                    <p><span class="icon-arrow-left"></span>Dezembro<span class="icon-arrow-right"></span></p>
                 </header>
                 <article class="days">
                     <a href="calendar.html" style="text-decoration: none;">
@@ -126,37 +130,37 @@
                     <li>
                         <a href="">
                             <span class="icon-images"></span><br />
-                            <span class="title">Gallery</span>
+                            <span class="title">Galeria</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span class="icon-bubble"></span><br />
-                            <span class="title">Message</span>
+                            <span class="title">Mensagens</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span class="icon-music"></span><br />
-                            <span class="title">Music</span>
+                            <span class="title">Musica</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span class="icon-search"></span><br />
-                            <span class="title">Search</span>
+                            <span class="title">Buscar</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span class="icon-cog"></span><br />
-                            <span class="title">Settings</span>
+                            <span class="title">Configurações</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <span class="icon-location"></span><br />
-                            <span class="title">Location</span>
+                            <span class="title">Localização</span>
                         </a>
                     </li>
                 </ul>
@@ -165,45 +169,50 @@
                 <div class="col_1of3">
 
                     <section class="box widget find" style="margin-top:1.2rem">
-                        <input type="text" name="find" placeholder="Find your city place" />
+                        <input type="text" name="find" placeholder="Pesquisar postagens" />
                         <label for="favorite" class="checkbox">
                             <input type="checkbox" id="favorite" name="favorite" />
-                            Add to favorites
+                            Adicionar busca aos favoritos
                         </label>
-                        <a href="#" class="btn btn-primary btn-large btn-block">Search</a>
+                        <a href="#" class="btn btn-primary btn-large btn-block">Buscar</a>
                     </section>
 
-                    <section class="box widget weather" style="margin-top:1.2rem">
-                        <header class="header" id="temperatura">
-
-                            <span class="icon-partlycloudy"></span>
-                        </header>
-                        <article>
-                            <h2 id="data"></h2>
-                        </article>
+                    <section class="box widget find" style="margin-top:1.2rem">
+                        <a href="#" class="btn btn-primary btn-large btn-block" style="background-color: green;">Entrar
+                            no Grupo</a>
                     </section>
 
                     <section class="box widget weather" style="margin-top:1.2rem">
                         <header class="header">
                             <div class="temp">
-                                <p id="mbti"></p><span class="fa fa-cogs"></span>
+                                <p id="mbti">Analistas</p><span class="fa fa-cogs"></span>
                             </div>
                             <span class="icon-partlycloudy"></span>
                         </header>
                         <article>
-                            <h2>Sua personalidade MBTI</h2>
+                            <h2>MBTI médio do grupo</h2>
                         </article>
                     </section>
                 </div>
                 <div class="col_2of3">
                     <article class="box post" style="margin-top:1.2rem">
-                        <div class="map"></div>
-                        <!--analysts_color<div class="image">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/scrtpxls_post.png" />
-                        </div>-->
+                        <div class="map">
+                            <img src="assets/img/desk.jpg" class="card-img" alt="...">
+                        </div>
                         <div class="details">
-                            <h2>Amsterdan</h2>
-                            <p>Oi galera sou novo por aqui,gostaria de encontrar algumas novas amizades </p>
+                            <h2>Ultimo Post:</h2>
+                            <p>
+                                <b>フィリップ -</b>
+                                Oi galera sou novo por aqui,espero encontrar novas amizades!
+                            </p>
+                            <p>
+                                <b>Shinobu -</b>
+                                Bem vindo!ようこそ!
+                            </p>
+                            <p>
+                                <b>拉麺-</b>
+                                ようこそ! sinta-se em casa!
+                            </p>
                         </div>
                     </article>
                 </div>
@@ -229,60 +238,7 @@
         const texto = mbti.innerText;
 
         function randomizer() {
-            var numero = Math.floor(Math.random() * 16);
-            switch (numero) {
-                case 0:
-                    mbti.innerText = 'INTJ';
-                    break;
-                case 1:
-                    mbti.innerText = 'INTP';
-                    break;
-                case 2:
-                    mbti.innerText = 'ENTJ';
-                    break;
-                case 3:
-                    mbti.innerText = 'ENTP';
-                    break;
-                case 4:
-                    mbti.innerText = 'INFJ';
-                    break;
-                case 5:
-                    mbti.innerText = 'INFP';
-                    break;
-                case 6:
-                    mbti.innerText = 'ENFJ';
-                    break;
-                case 7:
-                    mbti.innerText = 'ENFP';
-                    break;
-                case 8:
-                    mbti.innerText = 'ISTJ';
-                    break;
-                case 9:
-                    mbti.innerText = 'INFJ';
-                    break;
-                case 10:
-                    mbti.innerText = 'ESTJ';
-                    break;
-                case 11:
-                    mbti.innerText = 'ESFJ';
-                    break;
-                case 12:
-                    mbti.innerText = 'ISTP';
-                    break;
-                case 13:
-                    mbti.innerText = 'INFP';
-                    break;
-                case 14:
-                    mbti.innerText = 'ESTP';
-                    break;
-                case 15:
-                    mbti.innerText = 'ESFP';
-                    break;
-                default:
-                    mbti.innerText = 'MBTI';
-                    break;
-            }
+            r.style.setProperty('--default-page-color', `${analysts}`);
 
             if (numero == 0 || numero == 1 || numero == 2 || numero == 3) {
                 r.style.setProperty('--default-page-color', `${analysts}`);
@@ -297,43 +253,6 @@
                 r.style.setProperty('--default-page-color', `${explorers}`);
             }
 
-        }
-
-    </script>
-
-    <script>
-
-
-        function init() {
-            let temperatura = Math.floor(Math.random() * 20) + 10;
-            var data = new Date();
-            var dia = String(data.getDate()).padStart(2, '0');
-            var mes = String(data.getMonth() + 1).padStart(2, '0');
-            var ano = data.getFullYear();
-            dataAtual = dia + '/' + mes + '/' + ano;
-            $.ajax({
-                url: 'https://randomuser.me/api/?results=1&nat=br&exc=login',
-                dataType: 'json',
-                success: function (data) {
-                    console.log(data);
-                    var dados = data;
-                    console.log(data.results[0].name.first);
-                    console.log(data.results[0].name.last);
-                    console.log(data.results[0].picture.large);
-                    console.log(data.results[0].email);
-                    console.log(data.results[0].location.coordinates.latitude);
-                    var latitude = data.results[0].location.coordinates.latitude;
-                    $('.avatar').append(`<img src="${data.results[0].picture.large}" />`);
-                    $('.details').append(`<h2>${data.results[0].name.first} ${data.results[0].name.last}</h2>
-                    <p>${data.results[0].email}</p>
-                    <h2>${data.results[0].cell}</h2>`);
-                    $('.map').append(`<div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=${data.results[0].location.coordinates.latitude},${data.results[0].location.coordinates.longitude}+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.gps.ie/sport-gps/">gps watches</a></iframe></div>`);
-                    $('.box widget video').append(`<img src="${data.results[0].picture.thumbnail}" alt="" />`);
-                    $('#temperatura').append(`${temperatura}ºC`);
-                    $('#data').append(`${dataAtual}`);
-                }
-
-            });
         }
 
     </script>

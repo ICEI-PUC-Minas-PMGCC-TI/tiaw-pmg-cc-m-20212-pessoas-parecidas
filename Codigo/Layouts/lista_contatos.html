@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Contacts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Custom-Background.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+</head>
+
+<body onload="ListaContatos()">
+    <div id="header">
+        <div class="container-fluid"">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" aria-current="page" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="myProfile.html">Meu Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="signContacts.html">Contatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="eventResults.html">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="calendar.html">Calendario</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                        <button class="btn btn-dark" type="submit"><a href="userProfile.html" style="color: #eef4f7; text-decoration: none;">buscar</a></button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 5%;">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="msg" class="col-sm-2 offset-sm-10 ">
+                <a href="./signContacts.html"><input type="button" class="btn btn-warning" id="btnClear"
+                        value="Cadastro"></a>
+            </div>
+        </div>
+
+        <form id="form-contato">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()" class="form-control">
+                        <option value="">Selecione a Cidade</option>
+                        <option value="Betim">Betim</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Goiânia">Goiânia</option>
+                    </select>
+                </div>
+                <div class="col-sm-8">
+                    <select name="filtro_mbti" id="filtro_mbti" onchange="ListaContatos()" class="form-control">
+                        <option value="">Selecione por tipo de Personalidade</option>
+                        <option value="ENFJ">ENFJ</option>
+
+                        <option value="ENFP">ENFP</option>
+
+                        <option value="ENTJ">ENTJ</option>
+
+                        <option value="ENTP">ENTP</option>
+
+                        <option value="ESFJ">ESFJ</option>
+
+                        <option value="ESFP">ESFP</option>
+
+                        <option value="ESTJ">ESTJ</option>
+
+                        <option value="ESTP">ESTP</option>
+
+                        <option value="INFJ">INFJ</option>
+
+                        <option value="INFP">INFP</option>
+
+                        <option value="INTJ">INTJ</option>
+
+                        <option value="INTP">INTP</option>
+
+                        <option value="ISFJ">ISFJ</option>
+
+                        <option value="ISFP">ISFP</option>
+
+                        <option value="ISTJ">ISTJ</option>
+
+                        <option value="ISTP">ISTP</option>
+
+                    </select>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">MBTI</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Interesses</th>
+                            <th scope="col">Descricao</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./assets/js/signContacts.js"></script>
+    <script>
+        //Pegandos todas as cidades do filtro e armazenando
+        let cidades = [];
+        $('#filtro_cidade').find('option').each(function () {
+            var valor = $(this).val();
+            if (valor != "")
+                cidades.push(valor);
+        });
+        //Testando se tem uma cidade nova adicionada 
+        jQuery(document).ready(function () {
+            for (let i = 0; i < (db.data.lenght); i++) {
+                if (cidades.includes(db.data[i].cidade) != true && i == (db.data.lenght - 1)) {
+                    let newCidade = db.data[i].cidade;
+                    $("#filtro_cidade").append(<option value="{newCidade}">{newCidade}</option>);
+                }
+            };
+
+
+        });
+    </script>
+    <script>
+        // função para listar na tabela os contatos que estão associados aos filtros 
+        function ListaContatos() {
+
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_cidade').value;
+            let fcg = document.getElementById('filtro_mbti').value;
+
+            // limpa a lista de contatos apresentados
+            $("#table-contatos").empty();
+
+            // Popula a tabela com os registros do banco de dados
+            for (let index = 0; index < db.data.length; index++) {
+                const contato = db.data[index];
+
+                // Verifica se os dados do contato batem com os filtros
+                if (((contato.cidade == fc) || (fc == '')) &&
+                    ((contato.mbti == fcg) || (fcg == ''))) {
+
+                    // Inclui o contato na tabela    
+                    $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                    <td>${contato.nome}</td>
+                                                    <td>${contato.mbti}</td>
+                                                    <td>${contato.cidade}</td>
+                                                    <td>${contato.interesses}</td>
+                                                    <td>${contato.descricao}</td>
+                                                </tr>`);
+                }
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

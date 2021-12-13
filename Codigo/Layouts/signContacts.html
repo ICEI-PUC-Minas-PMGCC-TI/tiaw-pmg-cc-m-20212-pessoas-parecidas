@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Pessoas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Contacts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Custom-Background.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+</head>
+
+<body onload="init()">
+
+    <div id="header">
+        <div class="container-fluid"">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" aria-current="page" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="myProfile.html">Meu Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="signContacts.html">Contatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="eventResults.html">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="calendar.html">Calendario</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                        <button class="btn btn-dark" type="submit"><a href="userProfile.html" style="color: #eef4f7; text-decoration: none;">buscar</a></button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 5%;">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-contato">
+
+
+            <div class="form-group row">
+                <div class="col-sm-2">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputNome">Nome Completo(*)</label>
+                    <input type="text" minlength="4" class="form-control" id="inputNome" required
+                        placeholder="Informe o nome "
+                        pattern="^([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputNascimento">Data de nascimento(*)</label>
+                    <input type="date" class="form-control" id="inputNascimento" required placeholder="XX/XX/XXXX"
+                        required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-3">
+                    <label for="inputTelefone">Telefone</label>
+                    <input type="text" minlength="9" maxlength="15" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}"
+                        class="form-control" id="inputTelefone" placeholder="(xx)xxxxx-xxxx">
+                </div>
+                <div class="col-sm-2">
+                    <label for="inputMBTI">Tipo MBTI(*)</label>
+                    <select id="inputMBTI" style="height:2.7rem;width:8rem;
+                    border: 2px solid rgb(223, 223, 223);border-radius: 6px;">
+                        <option value=" " selected>Tipos</option>
+                        <option value="ENFJ">ENFJ</option>
+                        <option value="ENFP">ENFP</option>
+                        <option value="ENTJ">ENTJ</option>
+                        <option value="ENTP">ENTP</option>
+                        <option value="ESFJ">ESFJ</option>
+                        <option value="ESFP">ESFP</option>
+                        <option value="ESTJ">ESTJ</option>
+                        <option value="ESTP">ESTP</option>
+                        <option value="INFJ">INFJ</option>
+                        <option value="INFP">INFP</option>
+                        <option value="INTJ">INTJ</option>
+                        <option value="INTP">INTP</option>
+                        <option value="ISFJ">ISFJ</option>
+                        <option value="ISFP">ISFP</option>
+                        <option value="ISTJ">ISTJ</option>
+                        <option value="ISTP">ISTP</option>
+                    </select>
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputEmail">E-mail (*)</label>
+                    <input type="email" class="form-control" id="inputEmail" required
+                        placeholder="Informe o seu e-mail">
+                </div>
+                <div class="col-sm-3">
+                    <label for="inputCidade">Cidade</label>
+                    <input type="text" minlength="4" class="form-control" id="inputCidade"
+                        placeholder="Informe a cidade onde mora">
+                </div>
+            </div>
+            <div id="descricao" class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputInteresses">Interesses(*)</label>
+                    <input type="text" class="form-control" id="inputInteresses" required
+                        placeholder="Digite os Interesses separados por vírgula">
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputDescricao">Descrição(*)</label>
+                    <input type="text" class="form-control" id="inputDescricao" required
+                        placeholder="Descrição do perfil">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <input type="button" class="btn btn-secondary" id="btnTest" value="Testar">
+                    <a href="lista_contatos.html"><input type="button" class="btn btn-warning" id="btnClear"
+                            value="Pesquisar Contatos"></a>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">MBTI</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Data de Nascimento</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./assets/js/signContacts.js"></script>
+    <script>
+        function exibeContatos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-contatos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];
+                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.mbti}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                                <td>${contato.cidade}</td>
+                                                <td>${contato.nascimento}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-contato')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+                let coma = ',';
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                let campoMBTI = ($("#inputMBTI").val());
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoInteresses = ($("#inputInteresses").val()).split(coma);
+                let campoCidade = $("#inputCidade").val();
+                let campoNasci = $('#inputNascimento').val();
+                let campoDescricao = $('#inputDescricao').val();
+                let contato = {
+                    nome: campoNome,
+                    mbti: campoMBTI,
+                    telefone: campoTelefone,
+                    email: campoEmail,
+                    interesses: campoInteresses,
+                    cidade: campoCidade,
+                    nascimento: campoNasci,
+                    descricao: campoDescricao
+                };
+
+                insertContato(contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#inputNome").val();
+                let campoMBTI = $("#inputMBTI").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $("#inputEmail").val();
+                let campoInteresses = $("#inputInteresses").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoNasci = $("#inputNascimento").val();
+                let campoDescricao = $('#inputDescricao').val();
+                let contato = {
+                    nome: campoNome,
+                    mbti: campoMBTI,
+                    telefone: campoTelefone,
+                    interesses: campoInteresses,
+                    email: campoEmail,
+                    cidade: campoCidade,
+                    nascimento: campoNasci,
+                    descricao: campoDescricao
+                };
+
+                updateContato(parseInt(campoId), contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteContato(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Contatos
+            $("#btnClear").click(function () {
+                $("#form-contato")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-contatos").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                $("#inputMBTI").val(colunas[2].innerText);
+                $("#inputTelefone").val(colunas[3].innerText);
+                $("#inputEmail").val(colunas[4].innerText);
+                $("#inputCidade").val(colunas[5].innerText);
+                $("#inputNascimento").val(colunas[6].innerText);
+            });
+            $("#btnTest").click(function () {
+                teste_com_mocks();
+            });
+
+            exibeContatos();
+        }
+    </script>
+
+</body>
+
+</html>
