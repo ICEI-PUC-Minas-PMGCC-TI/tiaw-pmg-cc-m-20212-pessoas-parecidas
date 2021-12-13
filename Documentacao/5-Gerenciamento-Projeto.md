@@ -32,7 +32,7 @@ destes templates para agilizar a criação de novos cartões.
 trabalhando.
 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
-- 
+
 - Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas
 para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu
 perfeito.
