@@ -148,5 +148,6 @@ Forms para login com link para fazer o teste MBTI.
 | ------------- | ---------- | -------- |
 | Maria Clara   | Deu permisão de acesso à geolocalização, clima apresentado | Nenhuma modificação realizada |
 | Tiago Costa   | Não deu permisão de acesso à geolocalização, clima não apresentado | Nenhuma modificação realizada |
+
 ![wireframe](images/teste3.PNG)
 Api de tempo após conceder permissão de acesso a geolocalização.
