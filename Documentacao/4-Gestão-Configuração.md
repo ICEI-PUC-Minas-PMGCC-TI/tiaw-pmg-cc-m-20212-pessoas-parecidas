@@ -5,6 +5,8 @@
 > controle de versão foi configurada, bem como a hospedagem da
 > plataforma.
 
+#Metodologia
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -15,12 +17,8 @@ O projeto segue a seguinte convenção para o nome de branchs:
 
 - `master`: versão estável já testada do software
 - `gh-pages` : versão que está sendo hospedada
-- `unstable`: versão já testada do software, porém instável
 - `testing`: versão em testes do software
 - `develop`: versão de desenvolvimento do software
-- `release`: prepara o projeto para uma nova versão em produção
-- `hotfixes`: versão com algum erro com necessidade de correção imediata
-- `feature`: versão com nova funcionalidade de um release bem mais no futuro
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
@@ -41,12 +39,10 @@ etiquetas:
 - `needtest`: está pronto e necessita ser testado
 - `passedontest`: passou na fase de testes
 
-Esse projeto possui oito branchs,no início do desenvolvimento o código
+Esse projeto possui três branchs ativos,no início do desenvolvimento o código
 começará no `develop`,caso suja a ideia de uma funcionalidade que pode 
-modificar muito o código e será implementada somente em versões futuras 
-ele será feito no branch`feature` e será criado um issue sobre isso com a 
-tag `wontfixnow`,e quando ficar pronta poderá ser feito o pull request 
-aos outros integrante para permitir o pull do `feature` para o `develop`.
+modificar muito o código será criado um issue sobre isso com a 
+tag `wontfixnow`.
 
 As issues tags `duplicate`,`needtest`,`good first issue`,`feature` e `needresearch`são utilizadas
 dentro do  `develop` branch para orientar a equipe.Já as issues tags
@@ -54,14 +50,10 @@ dentro do  `develop` branch para orientar a equipe.Já as issues tags
 os branchs.
 
 Quando a equipe estiver confiante na versão,porém ela ainda não foi testada ela ficará no 
-`release` até poder ser testada.Caso uma versão apresentar falhas significativa que precise ser
-corrigida com prioridade ela será merged para `hotfixes`,e quando acabar voltará para `develop`
-e depois `release`.
+`testing` até poder ser testada.Caso uma versão apresentar falhas significativa que precise ser
+corrigida ela voltará para o `develop`.
 
-Caso a versão esteja pronta para teste,merged para `testing`e depois para `unstable`
-onde será testada,se passar em todos os testes será merged para o `master` e depois `gh-pages`onde será hospedada usando Github 
-Pages.Entretanto,se falhar nos testes voltará para `develop`,onde será criado issues usando tags
-`bugfix`,`unknownbug` e `enhancement` para informar os problemas encontrados nos testes.
+Caso a versão esteja pronta tendo passado em todos os testes ela será merged para o `master`.Entretanto,se falhar nos testes voltará para `develop`,onde será criado issues usando tags`bugfix`,`unknownbug` e `enhancement` para informar os problemas encontrados nos testes.
 
 Os commits aconteceram todas as vezes em que alteração no repositório ou uma alteração de código que passado por um teste local
 e não apresentou erros durante sua fase de desenvolvimento.
