@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/calendar.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Contacts.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="./assets/css/tempoDia.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container-fluid"">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Contatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-dark" href="#">Calendário</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div id="calendar" style="margin-top: 5%;border-radius: 1rem;"></div>
+        <div class="card text-center shadow-lg" style="width: 26rem; margin-top: 5%; border-radius: 1rem;">
+
+            <div class="card-header bg-white text-dark font-weight-bold">
+                TEMPO E TEMPERATURA
+            </div>
+
+            <div class="card-body">
+                <div class="city">Cidade Exemplo, BR</div>
+                <div class="date">Terça, 1 Dezembro 2020</div>
+                <div class="container-img">
+                    <img src="./assets/icons/unknown.png">
+                </div>
+                <div class="container-temp mx-4 my-3">
+                    <div>22</div>
+                    <span>°c</span>
+                </div>
+                <div class="weather py-2">Nublado</div>
+                <div class="low-high">22°c / 23°c</div>
+            </div>
+
+        </div>
+        <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+        <script src="./assets/js/tempoDia.js"></script>
+        <script src="./assets/js/calendar.js"></script>
+
+</body>
+
+</html>
