@@ -20,10 +20,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | Caso de teste      | *CT-02 -> cadastro de usuário*                                                                                                               |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos         | R-01 -> O site deve ser capaz de realizar o cadastro de um novo usuário;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro. |
+| Requisitos         | R-01 -> O site deve ser capaz de realizar o cadastro de um novo usuário para seus contatos;<br /> R-02 -> O site também deve ser capaz de editar esse cadastro. |
 | Objetivo do Teste  | O teste busca verificar se as funções de cadastro estão funcionando,<br /> para garantir as funcionalidades de contatos do site.             |
-| Passos             | 1º Realizar o login <br /> 2º Quando a página carregar, preencha-a com informações corretas  <br /> 3º Enviei as iformações.                 |
-| Critérios de Êxito | Após o cadastro a homepage deve carregar.                                                                                                    |
+| Passos             | 1º Realizar o login <br /> 2º Quando a página carregar, clique em "contatos" e preencha corretamente  <br /> 3º Enviei as iformações.        |
+| Critérios de Êxito | Após o cadastro um novo cadastri ira aparecer na lista.                                                                                      |
 
 | Caso de teste      | *CT-03 -> cadastro de Eventos*                                                                                                                      |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -51,7 +51,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | ------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | Requisitos         | R-01 -> O site deve ser capaz de mostrar um mapa com as posições de Long. e lati. forcidas para uma api.         |
 | Objetivo do Teste  | O teste busca verificar se a função de mapa esta funcional.                                                      |
-| Passos             | 1º Acesse um perfil de usuário                                                                                   |
+| Passos             | 1º Acesse um perfil de usuários.                                                                                   |
 | Critérios de Êxito | Ao entrar nessa pagina um mapa irá aparecer.                                                                     |
                                                                          
 | Caso de teste      | *CT-07 -> Postagem*                                                                                                                                                     |
