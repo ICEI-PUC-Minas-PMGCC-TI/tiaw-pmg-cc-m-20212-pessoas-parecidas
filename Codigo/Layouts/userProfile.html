@@ -170,12 +170,12 @@
                     </section>
 
                     <section class="box widget weather" style="margin-top:1.2rem">
-                        <header class="header">
-                            <div class="temp">10&#176; <span class="icon-brightness-half"></span></div>
+                        <header class="header" id="temperatura">
+
                             <span class="icon-partlycloudy"></span>
                         </header>
                         <article>
-                            <h2>Saturday 16 January</h2>
+                            <h2 id="data"></h2>
                         </article>
                     </section>
 
@@ -298,6 +298,12 @@
 
 
         function init() {
+            let temperatura = Math.floor(Math.random() * 20)+10;
+            var data = new Date();
+            var dia = String(data.getDate()).padStart(2, '0');
+            var mes = String(data.getMonth() + 1).padStart(2, '0');
+            var ano = data.getFullYear();
+            dataAtual = dia + '/' + mes + '/' + ano;
             $.ajax({
                 url: 'https://randomuser.me/api/?results=1&nat=br&exc=login',
                 dataType: 'json',
@@ -312,12 +318,15 @@
                     $('.details').append(`<h2>${data.results[0].name.first} ${data.results[0].name.last}</h2>
                     <p>${data.results[0].email}</p>
                     <h2>${data.results[0].cell}</h2>`);
-                    $('.box widget video').append(`<img src="${data.results[0].picture.thumbnail}" alt="" />`)
-
+                    $('.box widget video').append(`<img src="${data.results[0].picture.thumbnail}" alt="" />`);
+                    $('#temperatura').append(`${temperatura}ºC`);
+                    $('#data').append(`${dataAtual}`);
                 }
+
             });
 
         }
+
 
     </script>
     <!-- partial -->
