@@ -140,6 +140,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 05  | Grupos podem se tornar obsoletos                      |
 | 06  | Nivel de anonimato dos usuários                       |
 | 07  | Barreiras linguísticas                                |
-| 08  |                                                       |
-| 09  |                                                       |
-| 10  |                                                       |

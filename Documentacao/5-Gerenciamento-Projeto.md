@@ -6,7 +6,7 @@
 
 - **Marcus Prado Silva**: Mestre SCRUM e desenvolvedor,deve orgarniza a equipe,horários,reuniões,as tarefas,fazer backlogs dos Sprints e auxilia todos os da equipe que possuirem dúvidas ou dificuldades durante o projeto seja na parte visual,organização de backlogs do produto ou na parte de avaliação de funcionalidades a serem implementadas.
 - **Felipe Augusta Morais Silva**: Analista de UI/UX e desenvolvedor,deve recolher os pedidos dos usertests e propor  tecnologias e ferramentas que possibilitem criar o que os usuários desejaam,atualização de wireframe e layouts quando necessário,criação da identidade visual da aplicação utilizando editores de imagem,e realizar testes de responsividade da aplicação;
-- **Felipe Augusto Maciel Constantino**: Analista de Implementação e desenvolvedor,deve apresentar e organizar as ideias geradas nos "brainstorms" compara-las,avaliar os pontos positivos e negativos de implementa-las.Além de mostrar limitações técnicas e práticas de uma funcionalidade utilizando o um de filtaragem de uma semana para todas as funcionalidades da aplicação.
+- **Felipe Augusto Maciel Constantino**: Dono do Produto e desenvolvedor,deve propor uma lista de testes e funcionalidades a serem feitas durante o projeto,deve também organizar usertests, recolher o feeback dos usuários,estruturar user visions/storys e fazer os backlogs do produto.
 - <s>**Gabriel Da Silva Martins**: Dono do Produto e desenvolvedor,deve propor uma lista de testes e funcionalidades a serem feitas durante o projeto,deve também organizar usertests, recolher o feeback dos usuários,estruturar user visions/storys e fazer os backlogs do produto </s> 
 
 ## Processo
@@ -15,12 +15,34 @@ Todos da equipe devem verificar diariamente os afazeres da equipe até a entrega
 quando for desenvolver cada integrante entrará no Redbooth,e vai conferir as tarefas que ele terá que concluir até 
 a próxima reunião da equipe que ocorre no Microsoft Teams,além disso também encontrará de conter as ideias que cada um teve para a aplicação e os protocolos e regras de desenvolvimento adotadas pela equipe durante o projeto.Todas tarefas de diagramação e organização de ideias são feitas nos dias das reuniões.Na sexta-feira de toda semana todos os integrantes da equipe devem postar um relatório no canal do Discord contendo as atualizações semanais em suas funções dentro do SCRUM.O Mestre SCRUM vai recolher todos os pedidos da equipe e vai criar o backlog do Sprint.
 
-O Dono do Produto vai coletar dados sobre os usuários e apontar uma direção para como deve ser apresentado o produto aos clientes. Depois ele passará todos esses dados e pedidos para o Analista de UI/UX, que vai pesquisar e traçar abordagens para introduzir esses pedidos dentro da ideia de produto original definindo as tecnologias e ferramentas a serem utilizadas.Logo após ele passará as suas ideias para o Analista de Implementação que vai pesquisar e apontar pontos positivos e negativos de cada uma delas(lembrando que este analista avaliará todas as ideias do integrantes, não somente do Analista de UI/UX) e cobrar um cronograma de implementação que deve durar no máximo uma semana,se a ideia não conseguir ser implementada até esse período ele será descartada da lista de tarefas até o próximo reunião da equipe, onde o integrante a qual à proposta foi apresentada poderá reapresenta-la com novos argumentos e o restante da equipe votará a atenção a esta se valer a pena investir nessa novamente.
+O Dono do Produto vai coletar dados sobre os usuários e apontar uma direção para como deve ser apresentado o produto aos clientes. Depois ele passará todos esses dados e pedidos para o Analista de UI/UX, que vai pesquisar e traçar abordagens para introduzir esses pedidos dentro da ideia de produto original definindo as tecnologias e ferramentas a serem utilizadas.Logo após ele passará as suas ideias para o demais integrantes do grupo durante a próxmia reunião e então todos vão pesquisar sobre a ideia e apontar pontos positivos e negativos de cada uma delas e em seguida erá criado  um cronograma de implementação que deve durar no máximo uma semana,se a ideia não conseguir ser implementada até esse período ele será descartada da lista de tarefas até o próximo reunião da equipe, onde o integrante a qual à proposta foi apresentada poderá reapresenta-la com novos argumentos e o restante da equipe votará a atenção a esta se valer a pena investir nessa novamente.
 
 Depois desse processo,o Mestre SCRUM vai recolher todos essas informações apresentar um resumo das entregas de cada membro da equipe 
 durante as reuniões, ele atualizará os quadros de tarefas,irá auxiliar nas tarefas que não alcançaram o rendimento proposto pelo cronograma e vai dividir as tarefas dos próximos Sprints em módulos de obrigações de cada membro na próxima fase,tanto em suas tarefas dentro da metodologia SCRUM quanto suas tarefas como desenvolvedores.
 
-Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Knaban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
+Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban no Github, solicitar ajuda quando necessário e manter o status e suas tarefas atualizados no Redbooth e no Trello.
+
+##Organização e divisão de tarefas no Trello
+
+- Recursos: esta lista mantém um template de tarefas recorrentes com as
+configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia
+destes templates para agilizar a criação de novos cartões.
+
+- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos
+trabalhando.
+
+- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+- Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas
+para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu
+perfeito.
+
+- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de
+qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou
+revisões necessárias, ele está agendado e pronto para a ação. 
+- Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para
+esta lista juntamente com um comentário sobre o que está travando a tarefa.
+
 
 ## Ferramentas
 
