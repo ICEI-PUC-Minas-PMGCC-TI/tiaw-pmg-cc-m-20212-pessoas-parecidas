@@ -24,7 +24,7 @@ Lembrando que qualquer um da equipe deve propor ideias, conferir o quadro Kanban
 
 ##Organização e divisão de tarefas no Trello
 
--Recursos: esta lista mantém um template de tarefas recorrentes com as
+- Recursos: esta lista mantém um template de tarefas recorrentes com as
 configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia
 destes templates para agilizar a criação de novos cartões.
 
@@ -39,9 +39,8 @@ perfeito.
 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de
 qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou
-revisões necessárias, ele está agendado e pronto para a ação.
-
--Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para
+revisões necessárias, ele está agendado e pronto para a ação. 
+- Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para
 esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
 
