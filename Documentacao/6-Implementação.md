@@ -19,7 +19,7 @@
   - Google maps;
 
   #### Hospedagem:
-  - Repl.it -> 
+  - Repl.it -> https://meetpeople.grupoestudos.repl.co/
   
 ## Arquitetura da solução
 A solução implementada conta com os seguintes módulos:
