@@ -3,6 +3,8 @@
 
 Com o advento da pandemia e o aumento da solidão no seculo 21, conectar-se e interagir, para muitos, deixa de ser um luxo e passa a ser uma necessidade. Tendo isso em mente, o projeto Pessoas Parecidas busca uma forma de agrupar indivíduos diferentes em comunidades diferentes, tudo isso em um ambiente comum. 
 
+[LINK no replit](https://meetpeople.grupoestudos.repl.co/)
+
 ## Alunos integrantes da equipe
 
 * Marcus Prado Silva
